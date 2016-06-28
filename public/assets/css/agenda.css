@@ -1,0 +1,219 @@
+section.section-agenda {
+    background-size: initial;
+        line-height: 0;
+
+}
+.Agenda-Titulo{
+	
+}
+.flex{
+	-moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+   max-width: 1240px;
+}
+.conteudo_2{
+
+}
+.Agenda-Item{
+	width: 100%;
+}
+.titulo-mes-agenda {
+	padding-top: 146px;
+    width: 410px;
+    margin: 0 auto;
+    margin-bottom: 122px;
+}
+@media (max-width: 1680px){
+		.conteudo_2 {
+		    width: 1190px;
+	}
+}
+@media (min-width: 720px){
+	.Agenda-Item{
+		width: calc(50% - 6px);
+	}
+}
+@media (min-width: 1140px){
+	.Agenda-Item{
+		width: 33.33%;
+	}
+}
+.conteudo_2 {
+    width: 100%;
+    margin: 0 auto;
+}
+.titulo-mes-agenda .titulo-duplo {
+    font-size: 70px;
+    font-size: 1rem;
+    font-family: Avenir-Black;
+}
+.titulo-mes-agenda .titulo-duplo span.mes-branco {
+    color: #ffffff;
+}
+.titulo-mes-agenda .titulo-duplo span {
+    float: left;
+}
+.titulo-mes-agenda .titulo-duplo span {
+    float: left;
+}
+.titulo-mes-agenda .titulo-duplo span.mes-roxo {
+    color: ##21b2a6;
+    margin-top: 34px;
+    float: left;
+    margin-right: 0px;
+}
+.titulo-mes-agenda .titulo-duplo span {
+    float: left;
+}
+.titulo-mes-agenda .titulo-duplo {
+    font-size: 70px;
+    font-size: 7rem;
+    font-family: Avenir-Black;
+}
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+}
+.cada-tres {
+    width: 100%;
+}
+a {
+    outline: 0;
+    text-decoration: none;
+}
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.cada-data {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1680px){
+	.cada-data .data {
+	    width: 100%;
+	}
+}
+
+.cada-data .data {
+    text-align: center;
+    float: left;
+    width: 124px;
+    background: #573668;
+    transform: skew(-20deg, 0deg);
+    -webkit-transform: skew(-20deg, 0deg);
+    -moz-transform: skew(-20deg, 0deg);
+    -ms-transform: skew(-20deg, 0deg);
+    -o-transform: skew(-20deg, 0deg);
+    /* padding-bottom: 10px; */
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.cada-data .data .dia {
+    transform: skew(20deg, 0deg);
+    -webkit-transform: skew(20deg, 0deg);
+    -moz-transform: skew(20deg, 0deg);
+    -ms-transform: skew(20deg, 0deg);
+    -o-transform: skew(20deg, 0deg);
+    font-family: "CCSentinel W00 Regular";
+    color: #ffffff;
+    font-size: 82px;
+    font-size: 3em;
+    margin-left: -13px;
+    margin-top: 22px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.cada-data .data .mes {
+     transform: skew(20deg, 0deg);
+    -webkit-transform: skew(20deg, 0deg);
+    -moz-transform: skew(20deg, 0deg);
+    -ms-transform: skew(20deg, 0deg);
+    -o-transform: skew(20deg, 0deg);
+    font-family: "CCSentinel W00 Regular";
+    font-size: 32px;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: -10px;
+    margin-left: 29px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+@media (max-width: 3180px)
+{
+.cada-data .cidade-local {
+    width: 225px;
+    padding: 20px 15px;
+    padding-top: 30px;
+    min-height: 98px;
+    margin-left: 0px;
+    margin-top: 8px;
+}
+}
+.cada-data .cidade-local {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* padding: 12px 19px; */
+    /* margin-left: -1px; */
+    margin-top: 19px;
+    width: 255px;
+    float: left;
+    /* background: #ffffff; */
+    transform: skew(-20deg, 0deg);
+    -webkit-transform: skew(-20deg, 0deg);
+    -moz-transform: skew(-20deg, 0deg);
+    -ms-transform: skew(-20deg, 0deg);
+    -o-transform: skew(-20deg, 0deg);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    /* min-height: 115px; */
+}
+h1.cidade,
+p.local{
+	color: #fff;
+    line-height: normal;
+	transform: skew(20deg, 0deg);
+    -webkit-transform: skew(20deg, 0deg);
+    -moz-transform: skew(20deg, 0deg);
+    -ms-transform: skew(20deg, 0deg);
+    -o-transform: skew(20deg, 0deg);
+}
