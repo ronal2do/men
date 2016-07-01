@@ -3430,8 +3430,8 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				background: #fff;
-				content: '';
+			/*	background: #fff;
+				content: '';*/
 				display: block;
 				height: 2px;
 				position: absolute;

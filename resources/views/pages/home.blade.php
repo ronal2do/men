@@ -14,8 +14,8 @@
                 <!-- Banner -->
                     <section id="banner">
                         <div class="inner">
-                            <h2>Mateus <span class="Amarelo">&</span> Nathan</h2>
-                            
+                            <h2><!-- Mateus <span class="Amarelo">&</span> Nathan -->
+                            <img src="./images/logo2.svg" alt=""></h2>
                         </div>
                         <a href="#two" class="more scrolly">Conheça</a>
                     </section>
