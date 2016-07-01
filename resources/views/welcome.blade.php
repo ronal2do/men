@@ -9,74 +9,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
         <link rel="stylesheet" href="assets/css/main.css" />
-        <link rel="stylesheet" href="assets/css/agenda.css" />
+<!--         <link rel="stylesheet" href="assets/css/agenda.css" /> -->
         <link rel="stylesheet" href="assets/css/fotos.css" />
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-        <style>
-            .Amarelo{
-                color: #c59305;
-                font-family: initial;
-                font-size: 0.5em;
-                top: -0.3em;
-                position: relative;
-                letter-spacing: .02em;
-                z-index: 2;
-                text-shadow:
-                   -1px -1px 0 #2e3842,  
-                    1px -1px 0 #2e3842,
-                    -1px 1px 0 #2e3842,
-                     1px 1px 0 #2e3842;
 
-            }
-            .Amarelo:before{
-                    content: "M";
-                    position: relative;
-                    top: -0.2em;
-                    font-family: "CCSentinel W00 Regular";
-                    font-size: 2em;
-                
-            }
-            .Amarelo:after{
-                content: "N";
-                right: 0;    
-                position: relative;
-                top: 0.5em;
-                font-family: "CCSentinel W00 Regular";
-                font-size: 2em;
-            }
-            .Titulo{
-                position: absolute;
-                font-size: 2em;
-            }
-            .Titulo:after {
-                -moz-transition: width 0.85s ease;
-                -webkit-transition: width 0.85s ease;
-                -ms-transition: width 0.85s ease;
-                transition: width 0.85s ease;
-                -moz-transition-delay: 0.25s;
-                -webkit-transition-delay: 0.25s;
-                -ms-transition-delay: 0.25s;
-                transition-delay: 0.25s;
-                background: #fff;
-                content: '';
-                display: block;
-                height: 2px;
-                position: absolute;
-                width: 100%;
-            }
-            #one.wrapper {
-                padding: 1em 0 1em 0;
-            }
-            .free-wall {
-                margin: 15px;
-            }
-
-        </style>
     </head>
 
 
 @yield('content')
+<!-- SnapWidget -->
 
                 <!-- Footer -->
                     <footer id="footer">
@@ -104,6 +46,7 @@
             <script src="assets/js/main.js"></script>
             <script src="http://vnjs.net/www/project/freewall/freewall.js"></script>
             <script src="assets/js/fotos.js"></script>
+            <script src="assets/js/app.js"></script>
 
     </body>
 </html>

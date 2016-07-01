@@ -17,4 +17,14 @@ class WelcomeController extends Controller
         return view('pages.home', compact('agendas'));
     }
     
+    public function getDownload()
+    {
+        $file= public_path(). "/download/info.zip";
+
+        $headers = array(
+                  'Content-Type: application/zip',
+                );
+
+        return response()->download($file, 'presskit-mateus-nathan.zip', $headers);
+    }
 }

@@ -21,10 +21,11 @@ Route::get('/na-sua-festa', function () {
     return view('pages.na-sua-festa');
 });
 
-Route::get('/contratante', 'HomeController@getDownload');
+Route::get('/contratante', 'WelcomeController@getDownload');
 
 
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
 Route::post('/criaragenda', 'HomeController@criarAgenda');
+Route::get('/{id}/deletar', 'HomeController@deletaAgenda');

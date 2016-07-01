@@ -28,26 +28,26 @@ class HomeController extends Controller
 
     public function index()
     {
-        return view('home');
+        $agendas = Agenda::orderBy('data')->whereRaw('data >= curdate()')->get();
+        return view('home', compact('agendas'));
     }
+
+
     public function criarAgenda(Request $request)
     {
         $dados = $request->all();
         //dd($dados);
 
         Agenda::create($dados);
-
+        return redirect()->back();
         return view('home');
     }
-    
-    public function getDownload()
+
+    public function deletaAgenda($id)
     {
-        $file= public_path(). "/download/info.zip";
-
-        $headers = array(
-                  'Content-Type: application/zip',
-                );
-
-        return response()->download($file, 'presskit-mateus-nathan.zip', $headers);
+        $c = Agenda::findOrFail($id);
+        $c->delete();
+        return redirect()->back();
+        return view('home');       
     }
 }

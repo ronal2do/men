@@ -1,4 +1,3 @@
-Cadastrar novo evento
 <form class="form-horizontal" role="form" action="/criaragenda" method="POST">
 <input type="hidden" name="_token" value="{{ csrf_token() }}">
   <div class="form-group">
@@ -17,7 +16,7 @@ Cadastrar novo evento
   <label class="control-label col-sm-2" for="pwd">Data:</label>
  	<div class="col-sm-10">	
 		<div class="input-group date">
-		  <input id="data" type="text" class="form-control" name="data"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+		  <input id="data" type="text" class="form-control" name="data"><span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
 		</div>
 	</div>
   </div>
