@@ -22,10 +22,15 @@ Route::get('/na-sua-festa', function () {
 });
 
 Route::get('/contratante', 'WelcomeController@getDownload');
+Route::post('/newsletter', 'WelcomeController@postNews');
 
 
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
 Route::post('/criaragenda', 'HomeController@criarAgenda');
+Route::post('/criaragenda', 'HomeController@criarAgenda');
 Route::get('/{id}/deletar', 'HomeController@deletaAgenda');
+Route::post('/criarcontato', 'HomeController@criarContato');
+Route::get('/{id}/cdeletar', 'HomeController@deletaContato');
+Route::get('/{id}/ndeletar', 'HomeController@deletaNewsletter');

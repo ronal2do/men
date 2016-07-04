@@ -6,15 +6,18 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Agenda;
+use App\Contato;
+use App\Newsletter;
 
 class WelcomeController extends Controller
 {
 
     public function index()
     {
-    	$agendas = Agenda::orderBy('data')->whereRaw('data >= curdate()')->paginate(6);
+        $agendas = Agenda::orderBy('data')->whereRaw('data >= curdate()')->paginate(6);
+    	$contatos = Contato::paginate(6);
 
-        return view('pages.home', compact('agendas'));
+        return view('pages.home', compact('agendas', 'contatos'));
     }
     
     public function getDownload()
@@ -26,5 +29,14 @@ class WelcomeController extends Controller
                 );
 
         return response()->download($file, 'presskit-mateus-nathan.zip', $headers);
+    }
+    
+    public function postNews(Request $request)
+    {
+        $dados = $request->all();
+        //dd($dados);
+        Newsletter::create($dados);
+        return redirect()->back();
+        return view('welcome');
     }
 }

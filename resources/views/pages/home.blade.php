@@ -87,50 +87,11 @@
                 
                     </section>
 
+                    <!-- Contato -->
+                    @include('includes.contato')
 
-                    <section id="three" class="wrapper style2 special">
-                        <div class="inner">
-                            <header class="major">
-                                <h2 class="Titulo">CONTATO PARA SHOWS</h2>
-                            </header>
-                            <ul class="features">
-                                
-                                <li class="icon">
-                                    <h3>Ronaldo</h3>
-                                    <p class="mes">11 96057.8787 <br>contato@mateusenathan.com.br</p>
-                                    <br>
-                                </li>
-                                <li class="icon">
-                                    <h3>Ronaldo</h3>
-                                    <p class="mes">11 96057.8787 <br>contato@mateusenathan.com.br</p>
-                                    <br>
-                                </li>
-                                <li class="icon">
-                                    <h3>Ronaldo</h3>
-                                    <p class="mes">11 96057.8787 <br>contato@mateusenathan.com.br</p>
-                                    <br>
-                                </li>
-                                <li class="icon">
-                                    <h3>Ronaldo</h3>
-                                    <p class="mes">11 96057.8787 <br>contato@mateusenathan.com.br</p>
-                                    <br>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
+                    <!-- Newslleter -->
+                    @include('includes.newsletter')
 
-                <!-- CTA -->
-                    <section id="cta" class="wrapper style4">
-                        <div class="inner">
-                            <header>
-                                <h2>Fique por dentro das novidades</h2>
-                                <p class="news">Receba todas a novidades da dupla e descontos.</p>
-                            </header>
-                            <ul class="actions vertical">
-                                <li><input type="text" name="" id="" placeholder="Seu e-mail aqui"></li>
-                        <!--        <li><a href="#" class="button fit special">Área de fãns</a></li> -->
-                                <li><a href="#" class="button fit">Participar</a></li>
-                            </ul>
-                        </div>
-                    </section>
+
 @endsection

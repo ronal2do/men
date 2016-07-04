@@ -6,6 +6,8 @@ use App\Http\Requests;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use App\Agenda;
+use App\Contato;
+use App\Newsletter;
 
 class HomeController extends Controller
 {
@@ -29,7 +31,9 @@ class HomeController extends Controller
     public function index()
     {
         $agendas = Agenda::orderBy('data')->whereRaw('data >= curdate()')->get();
-        return view('home', compact('agendas'));
+        $contatos = Contato::get();
+        $newsletters = Newsletter::get();
+        return view('home', compact('agendas', 'contatos', 'newsletters'));
     }
 
 
@@ -47,6 +51,30 @@ class HomeController extends Controller
     {
         $c = Agenda::findOrFail($id);
         $c->delete();
+        return redirect()->back();
+        return view('home');       
+    }
+     public function criarContato(Request $request)
+    {
+        $dados = $request->all();
+        //dd($dados);
+
+        Contato::create($dados);
+        return redirect()->back();
+        return view('home');
+    }
+
+    public function deletaContato($id)
+    {
+        $c = Contato::findOrFail($id);
+        $c->delete();
+        return redirect()->back();
+        return view('home');       
+    }
+    public function deletaNewsletter($id)
+    {
+        $n = Newsletter::findOrFail($id);
+        $n->delete();
         return redirect()->back();
         return view('home');       
     }
