@@ -49,7 +49,7 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/home') }}">Home</a></li>
-                    <li><a href="{{ url('/agenda') }}">Agenda</a></li>
+
                 </ul>
 
                 <!-- Right Side Of Navbar -->
@@ -57,7 +57,7 @@
                     <!-- Authentication Links -->
                     @if (Auth::guest())
                         <li><a href="{{ url('/login') }}">Logar</a></li>
-                        <li><a href="{{ url('/register') }}">Registrar</a></li>
+<!--                         <li><a href="{{ url('/register') }}">Registrar</a></li> -->
                     @else
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
