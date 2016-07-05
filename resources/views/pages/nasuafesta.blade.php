@@ -19,27 +19,17 @@
                         </header>
                         <section class="wrapper style5">
                             <div class="inner">
-                                <section>
-                                    <p><span class="image left"><img src="images/dupla2.jpg" alt="" /></span>
+                                <section style="text-align:center;">
+                                    <p><!-- <span class="image left"><img src="images/dupla2.jpg" alt="" /></span> -->
                                     <h3>DUPLA</h3 <br>
-                                    A dupla garante um show animado e inusitado, reunindo um repertório repleto de sertanejo de raiz e também músicas atuais, com voz e violão. <br>
-                                    Com sua base musical influenciada
-                                    pela música sertaneja de vanguarda, a
-                                    dupla se destaca pela versatilidade em
-                                    transitar do Sertanejo de Raiz ao Sertanejo
-                                    Universitário. <br>
-                                    Durante seus shows, a dupla apresenta
-                                    um repertório com grandes hits da música
-                                    sertaneja, composições inéditas e
-                                    parcerias com artistas já renomados no
+                                    A dupla promove um show animado e inusitado, reunindo um repertório repleto de sertanejo de raiz, além de músicas atuais, com voz e violão. É feita uma seleção de músicas específicas e personalizadas de acordo com a necessidade de cada evento, fazendo de cada apresentação única e especial.
                                     </p>
-<br><br>
-                                    <p><span class="image right"><img src="images/pic5.jpg" alt="" /></span>
-                                    <h3>BANDA COMPLETA </h3><br>
-                                   Neste formato, todos sobem ao palco e dão ao público uma experiência ímpar, com homenagens a grandes nomes da música sertaneja. A dupla interage com o público e a banda garante que ninguém fique parado. <br>
+                                   <!-- <span class="image right"><img src="images/pic5.jpg" alt="" /></span> -->
+                                    <h3>BANDA COMPLETA </h3>
+                                    <p>Neste formato, todos sobem ao palco e dão ao público uma experiência ímpar, com homenagens a grandes nomes da música sertaneja. A dupla interage com o público e a banda garante que ninguém fique parado.  </p>
                                     
                                 </section>
-                                <section>
+                                <section style="text-align:center;">
                                     <p><!-- <span class="image left"><img src="images/pic4.jpg" alt="" /></span> -->
                                     <h3>CLIPAGEM</h3><br>
                                     Principais Apresentações <br>
@@ -65,7 +55,7 @@
                                             
                                         </div>
                                     </div> -->
-                                     <p><span class="image left"><img src="images/dupla2.jpg" alt="" /></span><span class="image right"><img src="images/dupla2.jpg" alt="" /></span></p>
+                                     <p><span class="image left" style="float: none;"><img src="images/dupla2.jpg" alt="" /></span><span class="image right" style="float: none;"><img src="images/dupla2.jpg" alt="" /></span></p>
                                 </section>
                             </div>
                         </section>
