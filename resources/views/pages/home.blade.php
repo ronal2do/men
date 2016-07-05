@@ -7,14 +7,15 @@
                 <!-- Header -->
 
                  <header id="header" class="alt">
-                        <h1><a href="/">Mateus <span class="Amarelo">&</span> Nathan</a></h1>
+                        <h1><a href="/">  
+                            <img src="./images/logo2.svg" alt="" class="Bar-logo"></a></h1>
                          @include('includes.nav')
                     </header>
 
                 <!-- Banner -->
                     <section id="banner">
                         <div class="inner">
-                            <h2><!-- Mateus <span class="Amarelo">&</span> Nathan -->
+                            <h2>
                             <img src="./images/logo2.svg" alt=""></h2>
                         </div>
                         <a href="#two" class="more scrolly">Conheça</a>
