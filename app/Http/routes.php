@@ -17,8 +17,8 @@ Route::get('/', 'WelcomeController@index');
 Route::get('/release', function () {
     return view('pages.release');
 });
-Route::get('/na-sua-festa', function () {
-    return view('pages.na-sua-festa');
+Route::get('/nasuafesta', function () {
+    return view('pages.nasuafesta');
 });
 
 Route::get('/contratante', 'WelcomeController@getDownload');

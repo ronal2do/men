@@ -15,7 +15,7 @@
                 <article id="main">
                         <header>
                             <h2>Na sua festa</h2>
-                            <p>Tocando sucessos de grandes nomes do sertanejo</p>
+                            <p>Surpreenda seus amigos e funcionários com ... </p>
                         </header>
                         <section class="wrapper style5">
                             <div class="inner">
@@ -36,23 +36,8 @@
 <br><br>
                                     <p><span class="image right"><img src="images/pic5.jpg" alt="" /></span>
                                     <h3>BANDA COMPLETA </h3><br>
-                                    Neste formato, todos sobem ao palco e dão ao público uma experiência única e com homenagens a grandes nomes da música sertaneja. <br>
-                                    Com sua base musical influenciada
-                                    pela música sertaneja de vanguarda, a
-                                    dupla se destaca pela versatilidade em
-                                    transitar do Sertanejo de Raiz ao Sertanejo
-                                    Universitário. <br>
-                                    Durante seus shows, a dupla apresenta
-                                    um repertório com grandes hits da música
-                                    sertaneja, composições inéditas e
-                                    parcerias com artistas já renomados no
-                                    </p>
-                                    <!-- <div class="box alt">
-                                        <div class="row uniform 50%">
-                                            <div class="12u"><span class="image fit"><img src="images/banner.jpg" alt="" /></span></div>
-                                            
-                                        </div>
-                                    </div> -->
+                                   Neste formato, todos sobem ao palco e dão ao público uma experiência ímpar, com homenagens a grandes nomes da música sertaneja. A dupla interage com o público e a banda garante que ninguém fique parado. <br>
+                                    
                                 </section>
                                 <section>
                                     <p><!-- <span class="image left"><img src="images/pic4.jpg" alt="" /></span> -->
@@ -80,6 +65,7 @@
                                             
                                         </div>
                                     </div> -->
+                                     <p><span class="image left"><img src="images/dupla2.jpg" alt="" /></span><span class="image right"><img src="images/dupla2.jpg" alt="" /></span></p>
                                 </section>
                             </div>
                         </section>
