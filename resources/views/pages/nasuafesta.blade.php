@@ -8,7 +8,8 @@
 
                 <!-- Header -->
                     <header id="header">
-                        <h1><a href="/">Mateus <span class="Amarelo">&</span> Nathan</a></h1>
+                       <h1><a href="/">  
+                            <img src="./images/logo2.svg" alt="" class="Bar-logo"></a></h1>
                        @include('includes.nav')
                     </header>
                 
@@ -49,15 +50,15 @@
                                     <p>
                                     Vídeos do youtube ou conheça nosso canal no youtube.
                                     </p>
-                                    <!-- <div class="box alt">
-                                        <div class="row uniform 50%">
-                                            <div class="12u"><span class="image fit"><img src="images/banner.jpg" alt="" /></span></div>
-                                            
-                                        </div>
-                                    </div> -->
-                                     <p><span class="image left" style="float: none;"><img src="images/dupla2.jpg" alt="" /></span><span class="image right" style="float: none;"><img src="images/dupla2.jpg" alt="" /></span></p>
+                              
                                 </section>
+                                            
                             </div>
                         </section>
-                    </article>
+                    </article>        
+                    <section id="one" class="style1 special">
+                        
+                        @include('includes.galeria2')
+                
+                    </section>
 @endsection

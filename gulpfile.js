@@ -7,11 +7,19 @@ elixir(function(mix) {
     	jsDir = 'resources/assets/js/',
     	cssDir = 'resources/assets/css/';
 
-    mix.copy(npmDir + 'instafeed.js/instafeed.min.js', jsDir);
-
+    mix.scripts([
+    	'galeria/jquery.poptrox.min.js',
+		'galeria/skel.min.js',
+		'galeria/util.js',
+		'galeria/main.js'
+    	],'public/assets/js/Galeria.js');
 	mix.scripts([
-		'instafeed.min.js',
-		'app.js'
+		'jquery.min.js',
+		'jquery.scrollex.min.js',
+		'jquery.scrolly.min.js',
+		'skel.min.js',
+		'util.js',
+		'main.js'
 	], 'public/assets/js/app.js');
 
 });

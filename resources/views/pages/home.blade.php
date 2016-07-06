@@ -82,11 +82,11 @@
                     <!-- Agenda -->
                     @include('includes.agenda')
                     <!-- Three -->              
-                 <!--    <section id="one" class="wrapper style1 special">
+                    <section id="one" class="style1 special">
                         
-                            <div id="freewall" class="free-wall"></div>
+                        @include('includes.galeria')
                 
-                    </section> -->
+                    </section>
 
                     <!-- Contato -->
                     @include('includes.contato')
