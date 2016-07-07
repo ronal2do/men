@@ -30,6 +30,7 @@
         </div>
         <!-- Scripts -->
         <script src="assets/js/app.js"></script>
+      
 @yield('postscript')
     </body>
 </html>
