@@ -14,11 +14,11 @@
                     </header>
                 
                 <article id="main">
-                        <header>
+                        <header class="festa">
                             <h2>Na sua festa</h2>
                             <p>Surpreenda seus amigos e funcionários com ... </p>
                         </header>
-                        <section class="wrapper style5">
+                        <section class="wrapper">
                             <div class="inner">
                                 <section style="text-align:center;">
                                     <p><!-- <span class="image left"><img src="images/dupla2.jpg" alt="" /></span> -->

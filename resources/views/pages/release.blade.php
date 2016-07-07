@@ -15,22 +15,22 @@
                     </header>
 
                     <article id="main">
-                        <header>
+                        <header class="release">
                             <h2>Release</h2>
                         </header>
-                        <section class="wrapper style5">
+                        <section class="wrapper">
                             <div class="inner">
 
                                 <section>
 
-                                    <p><span class="image fit"><img src="images/pic5.jpg" alt="" /></span>
+                                    <p>
                                     Irmãos, tomaram conhecimento e gosto pela música sertaneja desde a infância.
                                     Trilharam caminhos diferentes durante boa parte de suas vidas no que diz respeito a carreira profissional.
                                     Foi quando, por um toque do destino, resolveram que deveriam, não apenas irmãos mas sim uma DUPLA de cantores Sertanejo.
                                     Surge então a Dupla Mateus & Nathan.
                                     </p>
                           
-                                    <p><span class="image fit"><img src="images/dupla2.jpg" alt="" /></span>
+                                    <p><span class="image fit"><img src="images/pic5.jpg" alt="" /></span>
                                     Com mais de 15 anos de trajetória no
                                     mundo sertanejo, a dupla Matheus e
                                     Nathan marca presença em todo território
