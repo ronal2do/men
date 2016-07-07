@@ -3158,7 +3158,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #573668;
+		background: #b1943a;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3956,7 +3956,7 @@ a {
     text-align: center;
     float: left;
     width: 124px;
-    background: #573668;
+    background: rgb(56, 128, 150);
     transform: skew(-20deg, 0deg);
     -webkit-transform: skew(-20deg, 0deg);
     -moz-transform: skew(-20deg, 0deg);
@@ -4165,4 +4165,8 @@ p.local{
 		padding: 5px;
 	    width: 160px;
 	}
+}
+.style6{
+    background-color: rgb(56, 128, 150);
+    color: #c7ebe8;
 }

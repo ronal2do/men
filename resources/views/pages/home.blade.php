@@ -24,7 +24,7 @@
 
                 <!-- One -->
                     
-                    <section id="one" class="wrapper style1 special">
+                    <section id="one" class="wrapper style6 special">
                         <div class="inner">
                             <header class="major">
 <!--                                <h2>Arcu aliquet vel lobortis ata nisl</h2> -->
