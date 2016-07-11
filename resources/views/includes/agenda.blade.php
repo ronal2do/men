@@ -1,7 +1,7 @@
 <section id="secAgenda" class="wrapper special section-agenda">
     <div class="inner">
         <header class="major">
-            <h2 class="Titulo">AGENDA DE SHOWS</h2>
+            <h2 class="Titulo"><br>AGENDA DE SHOWS</h2>
         
         </header>
     </div>

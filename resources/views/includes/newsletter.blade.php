@@ -1,7 +1,7 @@
 <section id="cta" class="wrapper style4">
     <div class="inner">
         <header>
-            <h2>Fique por dentro das novidades</h2>
+            <h2><br>Fique por dentro das novidades</h2>
             <p class="news">Receba todas a novidades da dupla e descontos.</p>
         </header>
         <ul class="actions vertical">
