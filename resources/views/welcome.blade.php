@@ -17,14 +17,14 @@
     <!-- Footer -->
         <footer id="footer">
             <ul class="icons">
-                <li><a href="https://twitter.com/mateusnathanofi" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="https://www.facebook.com/MateuseNathanOficial/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="https://www.youtube.com/user/MateuseNathanOficial" class="icon fa-youtube"><span class="label">Dribbble</span></a></li>
-                <li><a href="#" class="icon fa-snapchat"><span class="label">Email</span></a></li>
+                <li><a target="_blank" href="https://twitter.com/mateusnathanofi" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/MateuseNathanOficial/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a target="_blank" href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/user/MateuseNathanOficial" class="icon fa-youtube"><span class="label">Dribbble</span></a></li>
+                <li><a target="_blank" href="#" class="icon fa-snapchat"><span class="label">Email</span></a></li>
             </ul>
             <ul class="copyright">
-                <li>&copy; Mateus & Nathan</li><!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
+                <li>&copy; Mateus & Nathan</li><!-- <li>Design: <a target="_blank" href="http://html5up.net">HTML5 UP</a></li> -->
             </ul>
         </footer>
         </div>
