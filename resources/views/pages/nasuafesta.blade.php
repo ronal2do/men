@@ -16,7 +16,7 @@
                 <article id="main">
                         <header class="festa">
                             <h2>Na sua festa</h2>
-                            <p>Surpreenda seus amigos e funcionários com ... </p>
+                            <p>Surpreenda seus amigos e funcionários</p>
                         </header>
                         <section class="wrapper">
                             <div class="inner">
@@ -31,24 +31,20 @@
                                     
                                 </section>
                                 <section style="text-align:center;">
-                                    <p><!-- <span class="image left"><img src="images/pic4.jpg" alt="" /></span> -->
+                                    <p ><!-- <span class="image left"><img src="images/pic4.jpg" alt="" /></span> -->
                                     <h3>CLIPAGEM</h3><br>
-                                    Principais Apresentações <br>
                                     Programa Raul Gil (SBT) <br>
                                     Programa Legendários (Rede Record) <br>
-                                    Programa Melhor Do Brasil (Rede Record) <br>
-                                    Programa Domingo Da Gente com Latino (Rede Record) <br>
-                                    Programa Amor E Sexo (Rede Globo) <br>
+                                    Programa Melhor do Brasil (Rede Record) <br>
+                                    Programa Domingo da Gente com Latino (Rede Record) <br>
+                                    Programa Amor e Sexo (Rede Globo) <br>
                                     Programa Justus + (Rede Record) <br>
-                                    Programa Domingo Da Gente Apresentação 
-                                    Wanessa Camargo (Rede Record) <br>
-                                    Mix TV Club Sertão Caipira. <br>
-                                    Entre outros... <br>
-                                    Alguns Links <br>
-                                    </p>
+                                    Programa Domingo da Gente – Apresentação Wanessa Camargo (Rede Record) <br>
+                                    Mix TV Club Sertão Caipira <br>
+ 
 
-                                    <p>
-                                    Vídeos do youtube ou conheça nosso canal no youtube.
+                                    <p style="text-align:center;">
+                                    Conheça nosso canal no Youtube
                                     </p>
                               
                                 </section>

@@ -29,8 +29,7 @@
                             <header class="major">
 <!--                                <h2>Arcu aliquet vel lobortis ata nisl</h2> -->
                                 <p>
-                                    Aliquam ut ex ut augue consectetur interdum. 
-                                    165 mil seguidores
+                                   Siga-nos nas redes sociais. Já são 165 mil seguidores nos acompanhando.
                                 </p>
                             </header>
                             <ul class="icons major">
@@ -52,7 +51,7 @@
                             </div>
                             <div class="content">
                                 <h2 class="Titulo">A Dupla</h2>
-                                <p>Com mais de 15 anos de trajetória a Dupla Mateus e Nathan marcam presença em todo território nacional, trazendo alegria ao seu público e levando o melhor do sertanejo.</p>
+                                <p>Com mais de 15 anos de carreira, a dupla Mateus e Nathan marcam presença em todo o território nacional, trazendo alegria ao seu público e levando o melhor do sertanejo.</p>
                             </div>
                         </section>
                         <section class="spotlight">
