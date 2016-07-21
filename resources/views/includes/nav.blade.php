@@ -4,7 +4,7 @@
             <a href="#menu" class="menuToggle"><span>Menu</span></a>
             <div id="menu">
                 <ul>
-                    <li><a href="/" class="scrolly">Home</a></li>
+                    <li><a href="/site" class="scrolly">Home</a></li>
                     <li><a href="/#secAgenda" class="scrolly">Agenda</a></li>
                     <li><a href="/release">Release</a></li>
                     <li><a href="/nasuafesta">Na sua festa</a></li>

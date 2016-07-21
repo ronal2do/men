@@ -10,9 +10,11 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::get('/', function () {
+    return view('errors.404');
+});
 
-
-Route::get('/', 'WelcomeController@index');
+Route::get('/site', 'WelcomeController@index');
 
 Route::get('/release', function () {
     return view('pages.release');

@@ -7,7 +7,7 @@
                 <!-- Header -->
 
                  <header id="header" class="alt">
-                        <h1><a href="/">  
+                        <h1><a href="/site">  
                             <img src="./images/logo2.svg" alt="" class="Bar-logo"></a></h1>
                          @include('includes.nav')
                     </header>
