@@ -1,13 +1,13 @@
 @extends('welcome')
 
-@section('content')       
+@section('content')
 <body class="landing">
         <!-- Page Wrapper -->
             <div id="page-wrapper">
                 <!-- Header -->
 
                  <header id="header" class="alt">
-                        <h1><a href="/site">  
+                        <h1><a href="/site">
                             <img src="./images/logo2.svg" alt="" class="Bar-logo"></a></h1>
                          @include('includes.nav')
                     </header>
@@ -23,8 +23,9 @@
 
 
                 <!-- One -->
-                    
+
                     <section id="one" class="wrapper style6 special">
+
                         <div class="inner">
                             <header class="major">
 <!--                                <h2>Arcu aliquet vel lobortis ata nisl</h2> -->
@@ -33,6 +34,7 @@
                                 </p>
                             </header>
                             <ul class="icons major">
+                                <li><img src="/images/capa_ep.jpg" width="250px" alt="" /></li>
                                 <li><span class="icon fa-facebook major style1"><span class="label">Facebook</span></span></li>
                                 <li><span class="icon fa-instagram major style2"><span class="label">instagram</span></span></li>
                                 <li><span class="icon fa-twitter major style3"><span class="label">twitter</span></span></li>
@@ -77,14 +79,14 @@
                             </div>
                         </section>
                     </section>
-    
+
                     <!-- Agenda -->
                     @include('includes.agenda')
-                    <!-- Three -->              
+                    <!-- Three -->
                     <section id="one" class="style1 special">
-                        
+
                         @include('includes.galeria')
-                
+
                     </section>
 
                     <!-- Contato -->
