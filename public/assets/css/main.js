@@ -3786,14 +3786,14 @@ export default StyleSheet.create({
         "textAlign": "center"
     },
     "main > headerfesta": {
-        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0)), url(\"../../images/pic3.jpg\")",
+        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0)), url(\"../../images/showalta-14.jpg\")",
         "backgroundAttachment": "fixed",
         "backgroundPosition": "center center",
         "backgroundRepeat": "no-repeat",
         "backgroundSize": "cover"
     },
     "main > headerrelease": {
-        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0)), url(\"../../images/banner.jpg\")",
+        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0)), url(\"../../images/showalta-4.jpg\")",
         "backgroundAttachment": "fixed",
         "backgroundPosition": "top center",
         "backgroundRepeat": "no-repeat",
