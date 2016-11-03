@@ -1055,7 +1055,7 @@ export default StyleSheet.create({
         "font": "inherit",
         "verticalAlign": "baseline",
         "display": "block",
-        "backgroundColor": "#1d242a",
+        "backgroundColor": "#861942",
         "textAlign": "center"
     },
     "header": {
@@ -3793,7 +3793,7 @@ export default StyleSheet.create({
         "backgroundSize": "cover"
     },
     "main > headerrelease": {
-        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0)), url(\"../../images/dupla.jpg\")",
+        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0)), url(\"../../images/banner.jpg\")",
         "backgroundAttachment": "fixed",
         "backgroundPosition": "top center",
         "backgroundRepeat": "no-repeat",
@@ -3817,6 +3817,11 @@ export default StyleSheet.create({
     },
     "bodyis-mobile main > header": {
         "backgroundAttachment": "scroll"
+    },
+    "bloco": {
+        "display": "flex",
+        "alignItems": "center",
+        "justifyContent": "space-around"
     },
     "footer icons": {
         "fontSize": 1.25
@@ -3883,7 +3888,7 @@ export default StyleSheet.create({
         "backgroundSize": "cover"
     },
     "bodyis-mobilelanding footer": {
-        "backgroundColor": "#1d242a"
+        "backgroundColor": "#861942"
     },
     "sectionsection-agenda": {
         "backgroundSize": "initial",
@@ -3979,7 +3984,7 @@ export default StyleSheet.create({
         "textAlign": "center",
         "float": "left",
         "width": 124,
-        "background": "rgb(56, 128, 150)",
+        "background": "rgb(134, 25, 66)",
         "transform": "skew(-20deg, 0deg)",
         "WebkitTransform": "skew(-20deg, 0deg)",
         "MozTransform": "skew(-20deg, 0deg)",
@@ -4131,6 +4136,10 @@ export default StyleSheet.create({
     },
     "style6": {
         "backgroundColor": "rgb(110, 56, 150)",
-        "color": "#c7ebe8"
+        "color": "#c7ebe8",
+        "background": "url('/images/pic7.jpg')",
+        "backgroundSize": "cover",
+        "backgroundRepeat": "no-repeat",
+        "backgroundPosition": "center center"
     }
 });

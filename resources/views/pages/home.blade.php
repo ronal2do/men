@@ -7,7 +7,7 @@
                 <!-- Header -->
 
                  <header id="header" class="alt">
-                        <h1><a href="/site">
+                        <h1><a href="/">
                             <img src="./images/logo2.svg" alt="" class="Bar-logo"></a></h1>
                          @include('includes.nav')
                     </header>
@@ -27,17 +27,21 @@
                     <section id="one" class="wrapper style6 special">
 
                         <div class="inner">
-                            <header class="major">
-<!--                                <h2>Arcu aliquet vel lobortis ata nisl</h2> -->
-                                <p>
-                                   Siga-nos nas redes sociais. Já são 165 mil seguidores nos acompanhando.
-                                </p>
-                            </header>
+                              <h2>Lorem dolem</h2>
+                            <div class="bloco">
+                              <div class="frase">
+                                <h4>Arcu aliquet vel lobortis ata nisl</h4>
+                                <h4>Arcu aliquet vel lobortis ata nisl</h4>
+                                <h4>Arcu aliquet vel lobortis ata nisl</h4>
+                                <h4>Arcu aliquet vel lobortis ata nisl</h4>
+                              </div>
+                              <img src="/images/capa_ep.jpg" width="250px" alt="" />
+
+                            </div>
+                            <br/>
                             <ul class="icons major">
-                                <li><img src="/images/capa_ep.jpg" width="250px" alt="" /></li>
                                 <li><span class="icon fa-facebook major style1"><span class="label">Facebook</span></span></li>
                                 <li><span class="icon fa-instagram major style2"><span class="label">instagram</span></span></li>
-                                <li><span class="icon fa-twitter major style3"><span class="label">twitter</span></span></li>
                                 <li><span class="icon fa-snapchat major style4"><span class="label">snapchat</span></span></li>
                                 <li><span class="icon fa-youtube major style5"><span class="label">youtube</span></span></li>
                             </ul>
@@ -49,7 +53,7 @@
                     <section id="two" class="wrapper alt style2">
                         <section class="spotlight">
                             <div class="image">
-                                <img src="images/dupla2.jpg" alt="" />
+                                <img src="images/dupla.jpg" alt="" />
                             </div>
                             <div class="content">
                                 <h2 class="Titulo">A Dupla</h2>
@@ -57,7 +61,7 @@
                             </div>
                         </section>
                         <section class="spotlight">
-                            <div class="image"><img src="images/dupla.jpg" alt="" /></div><div class="content">
+                            <div class="image"><img src="images/dupla2.jpg" alt="" /></div><div class="content">
                                 <h2 class="Titulo">Na sua festa</h2>
                                 <p>A dupla garante um show animado e inusitado, reunindo um repertório repleto de sertanejo de raiz e também músicas atuais, com voz e violão.</p>
                             </div>

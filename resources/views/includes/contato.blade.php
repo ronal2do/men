@@ -12,10 +12,10 @@
             </li>
             @empty
              <li class="icon">
-                <h3>Nenhum contato</h3>
+                <h3 style="text-align: center;">Nenhum contato</h3>
             </li>
             @endforelse
-          
+
         </ul>
     </div>
 </section>

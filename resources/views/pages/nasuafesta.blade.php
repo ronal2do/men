@@ -1,6 +1,6 @@
 @extends('welcome')
 
-@section('content')                
+@section('content')
 <body>
 
         <!-- Page Wrapper -->
@@ -8,11 +8,11 @@
 
                 <!-- Header -->
                     <header id="header">
-                       <h1><a href="/site">  
+                       <h1><a href="/">  
                             <img src="./images/logo2.svg" alt="" class="Bar-logo"></a></h1>
                        @include('includes.nav')
                     </header>
-                
+
                 <article id="main">
                         <header class="festa">
                             <h2>Na sua festa</h2>
@@ -28,7 +28,7 @@
                                    <!-- <span class="image right"><img src="images/pic5.jpg" alt="" /></span> -->
                                     <h3>BANDA COMPLETA </h3>
                                     <p>Neste formato, todos sobem ao palco e dão ao público uma experiência ímpar, com homenagens a grandes nomes da música sertaneja. A dupla interage com o público e a banda garante que ninguém fique parado.  </p>
-                                    
+
                                 </section>
                                 <section style="text-align:center;">
                                     <p ><!-- <span class="image left"><img src="images/pic4.jpg" alt="" /></span> -->
@@ -41,20 +41,20 @@
                                     Programa Justus + (Rede Record) <br>
                                     Programa Domingo da Gente – Apresentação Wanessa Camargo (Rede Record) <br>
                                     Mix TV Club Sertão Caipira <br>
- 
+
 
                                     <p style="text-align:center;">
                                     Conheça nosso canal no Youtube
                                     </p>
-                              
+
                                 </section>
-                                            
+
                             </div>
                         </section>
-                    </article>        
+                    </article>
                     <section id="one" class="style1 special">
-                        
+
                         @include('includes.galeria2')
-                
+
                     </section>
 @endsection
