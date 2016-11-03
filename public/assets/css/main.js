@@ -4136,9 +4136,8 @@ export default StyleSheet.create({
         "width": 130
     },
     "style6": {
-        "backgroundColor": "rgb(110, 56, 150)",
+        "backgroundColor": "rgba(27,127,204,.8)",
         "color": "#c7ebe8",
-        "background": "url('/images/pic7.jpg')",
         "backgroundSize": "cover",
         "backgroundRepeat": "no-repeat",
         "backgroundPosition": "center center"

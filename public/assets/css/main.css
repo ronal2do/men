@@ -4183,9 +4183,9 @@ p.local{
 	}
 }
 .style6{
-    background-color: rgb(110, 56, 150);
+    background-color: rgba(27,127,204,.8);
     color: #c7ebe8;
-		background: url('/images/pic7.jpg');
+		/*background: url('/images/pic7.jpg');*/
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-size: cover;
