@@ -3717,7 +3717,16 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
     display: flex;
     align-items: center;
     justify-content: space-around;
+		flex-wrap: wrap;
 }
+@media screen and (max-width: 980px) {
+
+	.bloco {
+				flex-wrap: no-wrap;
+	}
+
+}
+
 	#footer {
 		padding: 6em 0 4em 0 ;
 		background-color: #861942;
@@ -4181,4 +4190,15 @@ p.local{
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center center;
+}
+.Open {
+	  font-family: "Open Sans", Helvetica, sans-serif;
+}
+.Yellow {
+	 color: #fbe63c;
+}
+h4.Open.Yellow {
+    background: rgba(4, 1, 1, 0.27);
+    padding: 1px 5px;
+    color: white;
 }

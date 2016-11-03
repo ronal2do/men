@@ -3821,7 +3821,8 @@ export default StyleSheet.create({
     "bloco": {
         "display": "flex",
         "alignItems": "center",
-        "justifyContent": "space-around"
+        "justifyContent": "space-around",
+        "flexWrap": "wrap"
     },
     "footer icons": {
         "fontSize": 1.25
@@ -4141,5 +4142,19 @@ export default StyleSheet.create({
         "backgroundSize": "cover",
         "backgroundRepeat": "no-repeat",
         "backgroundPosition": "center center"
+    },
+    "Open": {
+        "fontFamily": "\"Open Sans\", Helvetica, sans-serif"
+    },
+    "Yellow": {
+        "color": "#fbe63c"
+    },
+    "h4OpenYellow": {
+        "background": "rgba(4, 1, 1, 0.27)",
+        "paddingTop": 1,
+        "paddingRight": 5,
+        "paddingBottom": 1,
+        "paddingLeft": 5,
+        "color": "white"
     }
 });

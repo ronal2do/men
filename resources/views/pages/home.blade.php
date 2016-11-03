@@ -24,30 +24,7 @@
 
                 <!-- One -->
 
-                    <section id="one" class="wrapper style6 special">
-
-                        <div class="inner">
-                              <h2>Lorem dolem</h2>
-                            <div class="bloco">
-                              <div class="frase">
-                                <h4>Arcu aliquet vel lobortis ata nisl</h4>
-                                <h4>Arcu aliquet vel lobortis ata nisl</h4>
-                                <h4>Arcu aliquet vel lobortis ata nisl</h4>
-                                <h4>Arcu aliquet vel lobortis ata nisl</h4>
-                              </div>
-                              <img src="/images/capa_ep.jpg" width="250px" alt="" />
-
-                            </div>
-                            <br/>
-                            <ul class="icons major">
-                                <li><span class="icon fa-facebook major style1"><span class="label">Facebook</span></span></li>
-                                <li><span class="icon fa-instagram major style2"><span class="label">instagram</span></span></li>
-                                <li><span class="icon fa-snapchat major style4"><span class="label">snapchat</span></span></li>
-                                <li><span class="icon fa-youtube major style5"><span class="label">youtube</span></span></li>
-                            </ul>
-                            <br>
-                        </div>
-                    </section>
+                @include('includes.ep')
 
                 <!-- Two -->
                     <section id="two" class="wrapper alt style2">
@@ -79,7 +56,7 @@
                         </style>
                             <div class="image"><iframe src="https://www.youtube.com/embed/Ki2TPyihBe8?autoplay=0&amp;rel=0&amp;loop=1&amp;showinfo=0&amp;disablekb=1&amp;controls=0" class="youtube"></iframe></div><div class="content">
                                 <h2 class="Titulo">MAtEUS E NATHAN no youtube</h2>
-                                <p>Mais de 780 mil visualizações.</p>
+                                <p>Mais de 800 mil visualizações.</p>
                             </div>
                         </section>
                     </section>
