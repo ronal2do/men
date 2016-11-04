@@ -3786,14 +3786,14 @@ export default StyleSheet.create({
         "textAlign": "center"
     },
     "main > headerfesta": {
-        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0)), url(\"../../images/pic3.jpg\")",
+        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0)), url(\"../../images/showalta-14.jpg\")",
         "backgroundAttachment": "fixed",
         "backgroundPosition": "center center",
         "backgroundRepeat": "no-repeat",
         "backgroundSize": "cover"
     },
     "main > headerrelease": {
-        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0)), url(\"../../images/banner.jpg\")",
+        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0)), url(\"../../images/showalta-4.jpg\")",
         "backgroundAttachment": "fixed",
         "backgroundPosition": "top center",
         "backgroundRepeat": "no-repeat",
@@ -3821,7 +3821,8 @@ export default StyleSheet.create({
     "bloco": {
         "display": "flex",
         "alignItems": "center",
-        "justifyContent": "space-around"
+        "justifyContent": "space-around",
+        "flexWrap": "wrap"
     },
     "footer icons": {
         "fontSize": 1.25
@@ -4135,11 +4136,24 @@ export default StyleSheet.create({
         "width": 130
     },
     "style6": {
-        "backgroundColor": "rgb(110, 56, 150)",
+        "backgroundColor": "rgba(27,127,204,.8)",
         "color": "#c7ebe8",
-        "background": "url('/images/pic7.jpg')",
         "backgroundSize": "cover",
         "backgroundRepeat": "no-repeat",
         "backgroundPosition": "center center"
+    },
+    "Open": {
+        "fontFamily": "\"Open Sans\", Helvetica, sans-serif"
+    },
+    "Yellow": {
+        "color": "#fbe63c"
+    },
+    "h4OpenYellow": {
+        "background": "rgba(4, 1, 1, 0.27)",
+        "paddingTop": 1,
+        "paddingRight": 5,
+        "paddingBottom": 1,
+        "paddingLeft": 5,
+        "color": "white"
     }
 });
