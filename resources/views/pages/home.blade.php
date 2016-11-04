@@ -65,9 +65,7 @@
                     @include('includes.agenda')
                     <!-- Three -->
                     <section id="one" class="style1 special">
-
                         @include('includes.galeria')
-
                     </section>
 
                     <!-- Contato -->

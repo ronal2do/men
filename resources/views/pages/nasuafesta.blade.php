@@ -42,7 +42,6 @@
                                     Programa Domingo da Gente – Apresentação Wanessa Camargo (Rede Record) <br>
                                     Mix TV Club Sertão Caipira <br>
 
-
                                     <p style="text-align:center;">
                                     Conheça nosso canal no Youtube
                                     </p>
