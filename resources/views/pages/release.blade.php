@@ -6,10 +6,9 @@
 
                 <!-- Header -->
                     <header id="header">
-                     <h1><a href="/">  
+                     <h1><a href="/">
                             <img src="./images/logo2.svg" alt="" class="Bar-logo"></a></h1>
                            @include('includes.nav')
-
                     </header>
 
                     <article id="main">
