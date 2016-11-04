@@ -8,7 +8,7 @@
 
                 <!-- Header -->
                     <header id="header">
-                       <h1><a href="/">  
+                       <h1><a href="/">
                             <img src="./images/logo2.svg" alt="" class="Bar-logo"></a></h1>
                        @include('includes.nav')
                     </header>
@@ -54,7 +54,7 @@
                     </article>
                     <section id="one" class="style1 special">
 
-                        @include('includes.galeria2')
+                        @include('includes.galeria')
 
                     </section>
 @endsection
