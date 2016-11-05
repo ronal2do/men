@@ -43,10 +43,10 @@
           </div>
         <ul class="icons major">
           <br>
-            <li><span class="icon fa-facebook major style1"><span class="label">Facebook</span></span></li>
-            <li><span class="icon fa-instagram major style2"><span class="label">instagram</span></span></li>
-            <li><span class="icon fa-snapchat major style4"><span class="label">snapchat</span></span></li>
-            <li><span class="icon fa-youtube major style5"><span class="label">youtube</span></span></li>
+            <li><a href=""><span class="icon fa-facebook major style1"><span class="label">Facebook</span></span></a></li>
+            <li><a href=""><span class="icon fa-instagram major style2"><span class="label">instagram</span></span></a></li>
+            <li><a href=""><span class="icon fa-snapchat major style4"><span class="label">snapchat</span></span></a></li>
+            <li><a href=""><span class="icon fa-youtube major style5"><span class="label">youtube</span></span></a></li>
         </ul>
         <br>
     </div>

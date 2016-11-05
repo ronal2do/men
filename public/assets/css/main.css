@@ -3671,14 +3671,6 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 				color: inherit;
 			}
 
-		@media screen and (max-width: 1680px) {
-
-			#main > header {
-				padding: 10em 0 8em 0 ;
-			}
-
-		}
-
 		@media screen and (max-width: 1280px) {
 
 			#main > header {
@@ -4200,4 +4192,17 @@ h4.Open.Yellow {
     background: rgba(4, 1, 1, 0.27);
     padding: 1px 5px;
     color: white;
+}
+.Flex {
+    display: flex;
+    align-items: center;
+}
+.image img {
+    border-radius: 3px;
+    display: block;
+    max-width: 100%;
+}
+.Cinquenta {
+	max-width: 50%;
+  margin: 50px 20px;
 }

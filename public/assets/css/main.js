@@ -2202,7 +2202,8 @@ export default StyleSheet.create({
     },
     "image img": {
         "borderRadius": 3,
-        "display": "block"
+        "display": "block",
+        "maxWidth": "100%"
     },
     "imageleft": {
         "float": "left",
@@ -4155,5 +4156,16 @@ export default StyleSheet.create({
         "paddingBottom": 1,
         "paddingLeft": 5,
         "color": "white"
+    },
+    "Flex": {
+        "display": "flex",
+        "alignItems": "center"
+    },
+    "Cinquenta": {
+        "maxWidth": "50%",
+        "marginTop": 50,
+        "marginRight": 20,
+        "marginBottom": 50,
+        "marginLeft": 20
     }
 });
