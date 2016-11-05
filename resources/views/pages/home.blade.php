@@ -34,13 +34,21 @@
                             </div>
                             <div class="content">
                                 <h2 class="Titulo">A Dupla</h2>
-                                <p>Com mais de 15 anos de carreira, a dupla Mateus e Nathan marcam presença em todo o território nacional, trazendo alegria ao seu público e levando o melhor do sertanejo.</p>
+                                <p>
+                                  Com mais de 15 anos de trajetória, a dupla Mateus & Nathan é considerada a nova revelação do momento, levando o melhor da música sertaneja ao seu público.
+                                  Com talento promissor e base musical influenciada pela música sertaneja de raiz, a dupla se destaca na versatilidade em transitar dos hits consagrados ao Sertanejo Universitário.
+                                </p>
+                                <a href="/release"><h4 class="">Confira o release <i class="fa fa-plus"></i></h4></a>
+
                             </div>
                         </section>
                         <section class="spotlight">
                             <div class="image"><img src="images/dupla2.jpg" alt="" /></div><div class="content">
-                                <h2 class="Titulo">Na sua festa</h2>
-                                <p>A dupla garante um show animado e inusitado, reunindo um repertório repleto de sertanejo de raiz e também músicas atuais, com voz e violão.</p>
+                                <h2 class="Titulo">na sua festa</h2>
+                                <p>
+                                  A dupla garante um show animado e inusitado, reunindo um repertório repleto de sertanejo de raiz e também músicas atuais, com voz e violão.
+                                </p>
+                                <a href=""><h4 class="">COMO CONTRATAR <i class="fa fa-plus"></i></h4></a>
                             </div>
                         </section>
                         <section class="spotlight">

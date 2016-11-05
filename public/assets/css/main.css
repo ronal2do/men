@@ -4183,9 +4183,8 @@ p.local{
 	}
 }
 .style6{
-    background-color: rgba(27,127,204,.8);
+    background-color: rgba(134, 25, 66, 0.15);
     color: #c7ebe8;
-		/*background: url('/images/pic7.jpg');*/
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4195,7 +4194,7 @@ p.local{
 	  font-family: "Open Sans", Helvetica, sans-serif;
 }
 .Yellow {
-	 color: #fbe63c;
+	 color: white;
 }
 h4.Open.Yellow {
     background: rgba(4, 1, 1, 0.27);

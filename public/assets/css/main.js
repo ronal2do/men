@@ -4136,7 +4136,7 @@ export default StyleSheet.create({
         "width": 130
     },
     "style6": {
-        "backgroundColor": "rgba(27,127,204,.8)",
+        "backgroundColor": "rgba(134, 25, 66, 0.15)",
         "color": "#c7ebe8",
         "backgroundSize": "cover",
         "backgroundRepeat": "no-repeat",
@@ -4146,7 +4146,7 @@ export default StyleSheet.create({
         "fontFamily": "\"Open Sans\", Helvetica, sans-serif"
     },
     "Yellow": {
-        "color": "#fbe63c"
+        "color": "white"
     },
     "h4OpenYellow": {
         "background": "rgba(4, 1, 1, 0.27)",
