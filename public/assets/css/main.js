@@ -2198,7 +2198,11 @@ export default StyleSheet.create({
         "borderRadius": 3,
         "border": 0,
         "display": "inline-block",
-        "position": "relative"
+        "position": "relative",
+        "marginTop": 35,
+        "marginRight": 15,
+        "marginBottom": 35,
+        "marginLeft": 15
     },
     "image img": {
         "borderRadius": 3,

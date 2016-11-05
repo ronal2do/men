@@ -1421,7 +1421,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 1em;
 			}
 
 		}
@@ -1429,7 +1429,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 1em;
 			}
 
 		}
@@ -1938,6 +1938,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 		border: 0;
 		display: inline-block;
 		position: relative;
+		margin: 35px 15px;
 	}
 
 		.image img {
