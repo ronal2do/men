@@ -4171,5 +4171,11 @@ export default StyleSheet.create({
         "marginRight": 20,
         "marginBottom": 50,
         "marginLeft": 20
+    },
+    "image-gal": {
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0
     }
 });
