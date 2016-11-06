@@ -44,7 +44,7 @@
                                     </div>
 
                                     <div class="Flex">
-                                      <span class="image"><img src="images/pic5.jpg" alt="" /></span>
+                                      <span class="image"><img src="images/pic51.jpg" alt="" /></span>
 
                                       <div class="Cinquenta">
                                         <h3 class="Titulo">BANDA COMPLETA </h3>
