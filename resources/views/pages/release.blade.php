@@ -15,24 +15,18 @@
                         <header class="release">
                             <h2>Release</h2>
 
-                            <section class="wrapper" style="background: rgba(134, 25, 66, 0.84); text-transform: none; margin-top:150px;">
+                            <section class="wrapper" style="background: rgba(134, 25, 66, 0.84); text-transform: none;">
 
                                 <div class="inner">
 
                                   <section style="text-align:left;">
-                                        <p style="text-transform: none;">
-                                       Ainda na infância, os irmãos tomaram conhecimento e gosto pela música sertaneja. Durante boa parte da vida, trilharam caminhos profissionais diferentes, até que o destino os uniu para que fossem não apenas irmãos, mas, sim, uma dupla de cantores sertanejos. Foi quando surgiu Mateus & Nathan.
-
-                                        <br><br>
-
-                                        Hoje, com mais de 15 anos de trajetória, eles marcam presença em todo o território nacional, trazendo alegria ao seu público com o melhor do sertanejo.<br><br>
-
-                                        Tendo sua base musical influenciada pela música sertaneja de vanguarda, a dupla se destaca pela versatilidade ao transitar do sertanejo de raiz ao sertanejo universitário.   <br><br>
-
-                                        Em seus shows, eles apresentam um repertório com grandes hits da música sertaneja, composições inéditas e parcerias.
-                                          </p>
-
-
+                                      <p style="text-transform: none;">
+                                        Com mais de 15 anos de trajetória, a dupla Mateus & Nathan é considerada a nova revelação do momento, levando o melhor da música sertaneja ao seu público.
+                                        <br/><br/>Com talento promissor e base musical influenciada pela música sertaneja de raiz, a dupla se destaca na versatilidade em transitar dos hits consagrados ao Sertanejo Universitário.
+                                        <br/><br/>Ao longo de sua carreira, os irmãos participaram dos principais programas de rádio e TV, conquistando reconhecimento em todo território nacional.
+                                        <br/> <br/> Mateus & Nathan desenvolvem projetos artísticos que retratam o cotidiano das pessoas com uma estética sonora autêntica, atualizada com as tendências deste segmento.
+                                        <br/><br/>  Durante seus shows, a dupla apresenta um repertório com grandes hits, composições inéditas e parcerias com artistas renomados da música brasileira.
+                                      </p>
 
                                     </section>
                                     <section style="text-align:left;">

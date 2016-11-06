@@ -2615,7 +2615,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 	}
 
 		.wrapper > .inner {
-			width: 60em;
+			width: 90%;
 			margin: 0 auto;
 		}
 
@@ -3120,9 +3120,11 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 		@media screen and (max-width: 736px) {
 
 			.wrapper {
-				padding: 3em 2em 1em 2em ;
+				padding: 1em 2em 1em 2em ;
 			}
-
+			.Flex {
+			    flex-wrap: wrap;
+			}
 		}
 
 /* Page Wrapper + Menu */
@@ -3631,8 +3633,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 /* Main */
 
 	#main > header {
-		padding: 12em 0 10em 0 ;
-
+		padding: 12em 9em 10em 9em;
 		text-align: center;
 	}
 	#main > header.festa{
@@ -3691,7 +3692,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 		@media screen and (max-width: 736px) {
 
 			#main > header {
-				padding: 5em 3em 3em 3em ;
+				padding: 5em 0em 3em ;
 			}
 
 				#main > header h2 {
@@ -4168,8 +4169,8 @@ p.local{
 }
 @media (min-width: 980px){
 	.Bar-logo{
-		padding: 5px;
-	    width: 160px;
+	    padding: 4px;
+	    width: 136px;
 	}
 	#cta{
 		padding: 3em;
@@ -4206,4 +4207,10 @@ h4.Open.Yellow {
 .Cinquenta {
 	max-width: 50%;
   margin: 50px 20px;
+}
+@media screen and (max-width: 736px) {
+	.Cinquenta {
+			max-width: 100%;
+			margin: 5px 5px;
+	}
 }

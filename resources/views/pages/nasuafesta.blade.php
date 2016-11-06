@@ -15,7 +15,7 @@
                         <header class="release">
                             <h2>Na sua festa</h2>
                             <p>Surpreenda seus amigos e colaboradores</p>
-                            <section class="wrapper" style="background: rgba(134, 25, 66, 0.84); text-transform: none; margin-top:150px;">
+                            <section class="wrapper" style="background: rgba(134, 25, 66, 0.84); text-transform: none;">
                                 <div class="inner">
                                   <section style="text-align:left;">
                                     <div class="Flex">

@@ -2884,7 +2884,7 @@ export default StyleSheet.create({
         "paddingLeft": 0
     },
     "wrapper > inner": {
-        "width": 60,
+        "width": "90%",
         "marginTop": 0,
         "marginRight": "auto",
         "marginBottom": 0,
@@ -3785,9 +3785,9 @@ export default StyleSheet.create({
     },
     "main > header": {
         "paddingTop": 12,
-        "paddingRight": 0,
+        "paddingRight": 9,
         "paddingBottom": 10,
-        "paddingLeft": 0,
+        "paddingLeft": 9,
         "textAlign": "center"
     },
     "main > headerfesta": {
