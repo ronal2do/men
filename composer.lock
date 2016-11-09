@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c22d82a058ac7b54c971bd0c673e073f",
-    "content-hash": "c31d0a22870ecba85f2230d456f1e482",
+    "hash": "5cb0218c1e81daa6eaf5f567d22ade77",
+    "content-hash": "11031ffe1670047c6ad59ca7ca2edd24",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -166,12 +166,12 @@
             "version": "5.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/facebook/facebook-php-sdk-v4.git",
+                "url": "https://github.com/facebook/php-graph-sdk.git",
                 "reference": "c60fba1fe1de62db1e0776d32fc2fb778189459c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/facebook-php-sdk-v4/zipball/c60fba1fe1de62db1e0776d32fc2fb778189459c",
+                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/c60fba1fe1de62db1e0776d32fc2fb778189459c",
                 "reference": "c60fba1fe1de62db1e0776d32fc2fb778189459c",
                 "shasum": ""
             },
@@ -216,6 +216,7 @@
                 "facebook",
                 "sdk"
             ],
+            "abandoned": "facebook/graph-sdk",
             "time": "2016-05-18 22:04:36"
         },
         {
@@ -1844,6 +1845,57 @@
                 "dump"
             ],
             "time": "2016-06-29 05:40:00"
+        },
+        {
+            "name": "uxweb/sweet-alert",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uxweb/sweet-alert.git",
+                "reference": "73518d53bd46bbccd6857838b0f0ed268471b654"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uxweb/sweet-alert/zipball/73518d53bd46bbccd6857838b0f0ed268471b654",
+                "reference": "73518d53bd46bbccd6857838b0f0ed268471b654",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/session": "~5.0",
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.5",
+                "phpunit/phpunit": "^5.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "UxWeb\\SweetAlert\\": "src/SweetAlert/"
+                },
+                "files": [
+                    "src/SweetAlert/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Uziel Bueno",
+                    "email": "ux.webs@gmail.com"
+                }
+            ],
+            "description": "A simple PHP package to show Sweet Alerts with the Laravel Framework",
+            "keywords": [
+                "alert",
+                "laravel",
+                "notifier",
+                "sweet"
+            ],
+            "time": "2016-08-15 00:29:11"
         },
         {
             "name": "vlucas/phpdotenv",

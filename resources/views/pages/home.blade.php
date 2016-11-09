@@ -20,11 +20,8 @@
                         </div>
                         <a href="#two" class="more scrolly">Conheça</a>
                     </section>
-
-
                 <!-- One -->
 
-                @include('includes.ep')
 
                 <!-- Two -->
                     <section id="two" class="wrapper alt style2">
@@ -34,7 +31,7 @@
                             </div>
                             <div class="content">
                                 <h2 class="Titulo">A Dupla</h2>
-                                <p>
+                                <p style="max-width: 570px; text-align: justify;">
                                   Com mais de 15 anos de trajetória, a dupla Mateus & Nathan é considerada a nova revelação do momento, levando o melhor da música sertaneja ao seu público.
                                   Com talento promissor e base musical influenciada pela música sertaneja de raiz, a dupla se destaca na versatilidade em transitar dos hits consagrados ao Sertanejo Universitário.
                                 </p>
@@ -45,10 +42,10 @@
                         <section class="spotlight">
                             <div class="image"><img src="images/dupla2.jpg" alt="" /></div><div class="content">
                                 <h2 class="Titulo">na sua festa</h2>
-                                <p>
+                                <p  style="max-width: 570px; text-align: justify;">
                                   A dupla garante um show animado e inusitado, reunindo um repertório repleto de sertanejo de raiz e também músicas atuais, com voz e violão.
                                 </p>
-                                <a href=""><h4 class="">COMO CONTRATAR <i class="fa fa-plus"></i></h4></a>
+                                <a href="/nasuafesta"><h4 class="">COMO CONTRATAR <i class="fa fa-plus"></i></h4></a>
                             </div>
                         </section>
                         <section class="spotlight">

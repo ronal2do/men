@@ -15,15 +15,15 @@
           <!-- <h2>Evento </h2> -->
         </article>
         <article class="thumb">
-          <a href="images/fulls/04.jpg" class="image image-gal"><img src="images/thumbs/04.jpg" alt="Evento" /></a>
+          <a href="images/fulls/_04.jpg" class="image image-gal"><img src="images/thumbs/_04.jpg" alt="Evento" /></a>
           <!-- <h2>Evento </h2> -->
         </article>
         <article class="thumb">
-          <a href="images/fulls/05.jpg" class="image image-gal"><img src="images/thumbs/05.jpg" alt="Evento" /></a>
+          <a href="images/fulls/_05.jpg" class="image image-gal"><img src="images/thumbs/_05.jpg" alt="Evento" /></a>
           <!-- <h2>Evento </h2> -->
         </article>
         <article class="thumb">
-          <a href="images/fulls/06.jpg" class="image image-gal"><img src="images/thumbs/06.jpg" alt="Evento" /></a>
+          <a href="images/fulls/_06.jpg" class="image image-gal"><img src="images/thumbs/_06.jpg" alt="Evento" /></a>
           <!-- <h2>Evento </h2> -->
         </article>
         <article class="thumb">

@@ -19,8 +19,8 @@
 
                                 <div class="inner">
 
-                                  <section style="text-align:left;">
-                                      <p style="text-transform: none;">
+                                  <section class="Pagina">
+                                      <p style="text-transform: none; max-width: 660px">
                                         Com mais de 15 anos de trajetória, a dupla Mateus & Nathan é considerada a nova revelação do momento, levando o melhor da música sertaneja ao seu público.
                                         <br/><br/>Com talento promissor e base musical influenciada pela música sertaneja de raiz, a dupla se destaca na versatilidade em transitar dos hits consagrados ao Sertanejo Universitário.
                                         <br/><br/>Ao longo de sua carreira, os irmãos participaram dos principais programas de rádio e TV, conquistando reconhecimento em todo território nacional.
@@ -29,7 +29,7 @@
                                       </p>
 
                                     </section>
-                                    <section style="text-align:left;">
+                                    <section style="text-align:center;">
                                         <h3>CLIPAGEM</h3><br>
                                         Programa Raul Gil (SBT) <br>
                                         Programa Legendários (Rede Record) <br>

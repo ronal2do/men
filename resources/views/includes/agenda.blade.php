@@ -1,8 +1,15 @@
 <section id="secAgenda" class="wrapper special section-agenda">
     <div class="inner">
         <header class="major">
-            <h2 class="Titulo"><br>AGENDA DE SHOWS</h2>
-        
+            <h2 class="Titulo"><br>
+              @if($agendas->count() > 0 )
+                AGENDA DE SHOWS
+              @else
+              <br>
+                MOMENTOS MATEUS & NATHAN
+              @endif
+            </h2>
+
         </header>
     </div>
     <div class="area-data-agenda conteudo_2 flex">
@@ -32,7 +39,7 @@
                           @elseif ( date('m ',strtotime($a->data)) == 9)
                              Setembro
                           @elseif ( date('m ',strtotime($a->data)) == 10)
-                             Outubro                 
+                             Outubro
                           @elseif ( date('m ',strtotime($a->data)) == 11)
                              Novembro
                           @else
@@ -49,11 +56,9 @@
                   </div>
               </div>
           </a>
-        @empty    
-          <div class="cada-data clearfix fade-left animated fadeInLeft">
-              Nenhum evento
-          </div>
-        @endforelse         
-            
+        @empty
+
+        @endforelse
+
     </div>
 </section>

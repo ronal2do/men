@@ -7,7 +7,7 @@
         <ul class="actions vertical">
             <form role="form" action="/newsletter" method="POST">
             <input type="hidden" name="_token" value="{{ csrf_token() }}">
-            <li><input type="text" name="email" id="" placeholder="Seu e-mail aqui"></li>
+            <li><input type="text" name="email" id="" placeholder="Seu e-mail aqui" required></li>
             <li><input type="submit" class="button fit" value="Participar"></li>
             </form>
         </ul>

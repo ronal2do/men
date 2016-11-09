@@ -1652,34 +1652,34 @@ export default StyleSheet.create({
         "width": "device-width"
     },
     "bodyis-loading *": {
-        "MozAnimation": "none !important",
-        "WebkitAnimation": "none !important",
-        "MsAnimation": "none !important",
-        "animation": "none !important",
-        "MozTransition": "none !important",
-        "WebkitTransition": "none !important",
-        "MsTransition": "none !important",
-        "transition": "none !important"
+        "MozAnimation": "ease !important",
+        "WebkitAnimation": "ease !important",
+        "MsAnimation": "ease !important",
+        "animation": "ease !important",
+        "MozTransition": "ease !important",
+        "WebkitTransition": "ease !important",
+        "MsTransition": "ease !important",
+        "transition": "ease !important"
     },
     "bodyis-loading *:before": {
-        "MozAnimation": "none !important",
-        "WebkitAnimation": "none !important",
-        "MsAnimation": "none !important",
-        "animation": "none !important",
-        "MozTransition": "none !important",
-        "WebkitTransition": "none !important",
-        "MsTransition": "none !important",
-        "transition": "none !important"
+        "MozAnimation": "ease !important",
+        "WebkitAnimation": "ease !important",
+        "MsAnimation": "ease !important",
+        "animation": "ease !important",
+        "MozTransition": "ease !important",
+        "WebkitTransition": "ease !important",
+        "MsTransition": "ease !important",
+        "transition": "ease !important"
     },
     "bodyis-loading *:after": {
-        "MozAnimation": "none !important",
-        "WebkitAnimation": "none !important",
-        "MsAnimation": "none !important",
-        "animation": "none !important",
-        "MozTransition": "none !important",
-        "WebkitTransition": "none !important",
-        "MsTransition": "none !important",
-        "transition": "none !important"
+        "MozAnimation": "ease !important",
+        "WebkitAnimation": "ease !important",
+        "MsAnimation": "ease !important",
+        "animation": "ease !important",
+        "MozTransition": "ease !important",
+        "WebkitTransition": "ease !important",
+        "MsTransition": "ease !important",
+        "transition": "ease !important"
     },
     "input": {
         "color": "#fff",
@@ -1702,7 +1702,7 @@ export default StyleSheet.create({
         "appearance": "none",
         "background": "rgba(144, 144, 144, 0.25)",
         "borderRadius": 3,
-        "border": "none",
+        "border": "2px solid #861942",
         "display": "block",
         "outline": 0,
         "paddingTop": 0,
@@ -1726,7 +1726,7 @@ export default StyleSheet.create({
         "appearance": "none",
         "background": "rgba(144, 144, 144, 0.25)",
         "borderRadius": 3,
-        "border": "none",
+        "border": "2px solid #861942",
         "display": "block",
         "outline": 0,
         "paddingTop": 0.75,
@@ -1891,7 +1891,7 @@ export default StyleSheet.create({
         "appearance": "none",
         "background": "rgba(144, 144, 144, 0.25)",
         "borderRadius": 3,
-        "border": "none",
+        "border": "2px solid #861942",
         "color": "inherit",
         "display": "block",
         "outline": 0,
@@ -1910,7 +1910,7 @@ export default StyleSheet.create({
         "appearance": "none",
         "background": "rgba(144, 144, 144, 0.25)",
         "borderRadius": 3,
-        "border": "none",
+        "border": "2px solid #861942",
         "color": "inherit",
         "display": "block",
         "outline": 0,
@@ -1929,7 +1929,7 @@ export default StyleSheet.create({
         "appearance": "none",
         "background": "rgba(144, 144, 144, 0.25)",
         "borderRadius": 3,
-        "border": "none",
+        "border": "2px solid #861942",
         "color": "inherit",
         "display": "block",
         "outline": 0,
@@ -2758,10 +2758,9 @@ export default StyleSheet.create({
         "paddingTop": 1,
         "paddingRight": 0,
         "paddingBottom": 0,
-        "paddingLeft": 2,
+        "paddingLeft": 0,
         "display": "block",
         "position": "relative",
-        "textAlign": "left",
         "width": "50%"
     },
     "features li:nth-child(1)": {
@@ -3882,13 +3881,13 @@ export default StyleSheet.create({
         "background": "none"
     },
     "bodyis-mobilelanding banner": {
-        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(\"../../images/banner-mob.jpg\")",
+        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(\"../../images/banner-mob.jpg\")",
         "backgroundPosition": "top center",
         "backgroundRepeat": "no-repeat",
         "backgroundSize": "cover"
     },
     "bodyis-mobilelanding wrapperstyle4": {
-        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(\"../../images/banner-mob.jpg\")",
+        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(\"../../images/banner-mob.jpg\")",
         "backgroundPosition": "top center",
         "backgroundRepeat": "no-repeat",
         "backgroundSize": "cover"
@@ -4172,10 +4171,24 @@ export default StyleSheet.create({
         "marginBottom": 50,
         "marginLeft": 20
     },
+    "Cinquenta>p": {
+        "textTransform": "none",
+        "textAlign": "justify",
+        "maxWidth": 560
+    },
     "image-gal": {
         "marginTop": 0,
         "marginRight": 0,
         "marginBottom": 0,
         "marginLeft": 0
+    },
+    "Pagina": {
+        "textAlign": "center",
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "display": "flex",
+        "justifyContent": "center"
     }
 });

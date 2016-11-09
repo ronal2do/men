@@ -1399,14 +1399,14 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
+			-moz-animation: ease !important;
+			-webkit-animation: ease !important;
+			-ms-animation: ease !important;
+			animation: ease !important;
+			-moz-transition: ease !important;
+			-webkit-transition: ease !important;
+			-ms-transition: ease !important;
+			transition: ease !important;
 		}
 
 	body, input, select, textarea {
@@ -1645,9 +1645,6 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 
 	@media screen and (max-width: 980px) {
 
-		header br {
-			display: none;
-		}
 
 	}
 
@@ -1679,6 +1676,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 		border: none;
 		color: inherit;
 		display: block;
+    border: 2px solid #861942;
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
@@ -2378,11 +2376,11 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 	}
 
 		.features li {
-			padding: 1em 0em 0em 2em;
-		    display: block;
-		    position: relative;
-		    text-align: left;
-		    width: 50%;
+			padding: 1em 0em 0em;
+	    display: block;
+	    position: relative;
+	    /* text-align: left; */
+	    width: 50%;
 		}
 
 			.features li:nth-child(1) {
@@ -2588,7 +2586,8 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 				}
 
 				.spotlight .image {
-					width: 100%;
+					width: 90%;
+			    text-align: center;
 				}
 
 				.spotlight .content {
@@ -3822,10 +3821,10 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/banner-mob.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/banner-mob.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/banner-mob.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/banner-mob.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../../images/banner-mob.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../../images/banner-mob.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../../images/banner-mob.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../../images/banner-mob.jpg");
 		background-position: top center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4208,6 +4207,11 @@ h4.Open.Yellow {
 	max-width: 50%;
   margin: 50px 20px;
 }
+.Cinquenta>p {
+	text-transform: none;
+	text-align: justify;
+	max-width: 560px;
+}
 @media screen and (max-width: 736px) {
 	.Cinquenta {
 			max-width: 100%;
@@ -4216,4 +4220,7 @@ h4.Open.Yellow {
 }
 .image-gal {
     margin: 0;
+}
+.Pagina {
+	text-align:center; margin: 0; display: flex; justify-content: center;
 }
