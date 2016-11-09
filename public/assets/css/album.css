@@ -721,9 +721,10 @@
 				-webkit-transition-delay: 1.175s;
 				-ms-transition-delay: 1.175s;
 				transition-delay: 1.175s;
-				height: calc(40vh - 2em);
-				min-height: 18em;
-				width: 100%;
+				height: calc(40vh - 14em);
+				    min-height: 2em;
+				    width: 50%;
+
 			}
 
 				#Fotos .thumb:nth-child(1) {

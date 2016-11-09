@@ -1652,34 +1652,34 @@ export default StyleSheet.create({
         "width": "device-width"
     },
     "bodyis-loading *": {
-        "MozAnimation": "none !important",
-        "WebkitAnimation": "none !important",
-        "MsAnimation": "none !important",
-        "animation": "none !important",
-        "MozTransition": "none !important",
-        "WebkitTransition": "none !important",
-        "MsTransition": "none !important",
-        "transition": "none !important"
+        "MozAnimation": "ease !important",
+        "WebkitAnimation": "ease !important",
+        "MsAnimation": "ease !important",
+        "animation": "ease !important",
+        "MozTransition": "ease !important",
+        "WebkitTransition": "ease !important",
+        "MsTransition": "ease !important",
+        "transition": "ease !important"
     },
     "bodyis-loading *:before": {
-        "MozAnimation": "none !important",
-        "WebkitAnimation": "none !important",
-        "MsAnimation": "none !important",
-        "animation": "none !important",
-        "MozTransition": "none !important",
-        "WebkitTransition": "none !important",
-        "MsTransition": "none !important",
-        "transition": "none !important"
+        "MozAnimation": "ease !important",
+        "WebkitAnimation": "ease !important",
+        "MsAnimation": "ease !important",
+        "animation": "ease !important",
+        "MozTransition": "ease !important",
+        "WebkitTransition": "ease !important",
+        "MsTransition": "ease !important",
+        "transition": "ease !important"
     },
     "bodyis-loading *:after": {
-        "MozAnimation": "none !important",
-        "WebkitAnimation": "none !important",
-        "MsAnimation": "none !important",
-        "animation": "none !important",
-        "MozTransition": "none !important",
-        "WebkitTransition": "none !important",
-        "MsTransition": "none !important",
-        "transition": "none !important"
+        "MozAnimation": "ease !important",
+        "WebkitAnimation": "ease !important",
+        "MsAnimation": "ease !important",
+        "animation": "ease !important",
+        "MozTransition": "ease !important",
+        "WebkitTransition": "ease !important",
+        "MsTransition": "ease !important",
+        "transition": "ease !important"
     },
     "input": {
         "color": "#fff",
@@ -1702,7 +1702,7 @@ export default StyleSheet.create({
         "appearance": "none",
         "background": "rgba(144, 144, 144, 0.25)",
         "borderRadius": 3,
-        "border": "none",
+        "border": "2px solid #861942",
         "display": "block",
         "outline": 0,
         "paddingTop": 0,
@@ -1726,7 +1726,7 @@ export default StyleSheet.create({
         "appearance": "none",
         "background": "rgba(144, 144, 144, 0.25)",
         "borderRadius": 3,
-        "border": "none",
+        "border": "2px solid #861942",
         "display": "block",
         "outline": 0,
         "paddingTop": 0.75,
@@ -1891,7 +1891,7 @@ export default StyleSheet.create({
         "appearance": "none",
         "background": "rgba(144, 144, 144, 0.25)",
         "borderRadius": 3,
-        "border": "none",
+        "border": "2px solid #861942",
         "color": "inherit",
         "display": "block",
         "outline": 0,
@@ -1910,7 +1910,7 @@ export default StyleSheet.create({
         "appearance": "none",
         "background": "rgba(144, 144, 144, 0.25)",
         "borderRadius": 3,
-        "border": "none",
+        "border": "2px solid #861942",
         "color": "inherit",
         "display": "block",
         "outline": 0,
@@ -1929,7 +1929,7 @@ export default StyleSheet.create({
         "appearance": "none",
         "background": "rgba(144, 144, 144, 0.25)",
         "borderRadius": 3,
-        "border": "none",
+        "border": "2px solid #861942",
         "color": "inherit",
         "display": "block",
         "outline": 0,
@@ -2198,11 +2198,16 @@ export default StyleSheet.create({
         "borderRadius": 3,
         "border": 0,
         "display": "inline-block",
-        "position": "relative"
+        "position": "relative",
+        "marginTop": 35,
+        "marginRight": 15,
+        "marginBottom": 35,
+        "marginLeft": 15
     },
     "image img": {
         "borderRadius": 3,
-        "display": "block"
+        "display": "block",
+        "maxWidth": "100%"
     },
     "imageleft": {
         "float": "left",
@@ -2753,10 +2758,9 @@ export default StyleSheet.create({
         "paddingTop": 1,
         "paddingRight": 0,
         "paddingBottom": 0,
-        "paddingLeft": 2,
+        "paddingLeft": 0,
         "display": "block",
         "position": "relative",
-        "textAlign": "left",
         "width": "50%"
     },
     "features li:nth-child(1)": {
@@ -2879,7 +2883,7 @@ export default StyleSheet.create({
         "paddingLeft": 0
     },
     "wrapper > inner": {
-        "width": 60,
+        "width": "90%",
         "marginTop": 0,
         "marginRight": "auto",
         "marginBottom": 0,
@@ -3780,9 +3784,9 @@ export default StyleSheet.create({
     },
     "main > header": {
         "paddingTop": 12,
-        "paddingRight": 0,
+        "paddingRight": 9,
         "paddingBottom": 10,
-        "paddingLeft": 0,
+        "paddingLeft": 9,
         "textAlign": "center"
     },
     "main > headerfesta": {
@@ -3877,13 +3881,13 @@ export default StyleSheet.create({
         "background": "none"
     },
     "bodyis-mobilelanding banner": {
-        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(\"../../images/banner-mob.jpg\")",
+        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(\"../../images/banner-mob.jpg\")",
         "backgroundPosition": "top center",
         "backgroundRepeat": "no-repeat",
         "backgroundSize": "cover"
     },
     "bodyis-mobilelanding wrapperstyle4": {
-        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(\"../../images/banner-mob.jpg\")",
+        "backgroundImage": "linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(\"../../images/banner-mob.jpg\")",
         "backgroundPosition": "top center",
         "backgroundRepeat": "no-repeat",
         "backgroundSize": "cover"
@@ -4136,7 +4140,7 @@ export default StyleSheet.create({
         "width": 130
     },
     "style6": {
-        "backgroundColor": "rgba(27,127,204,.8)",
+        "backgroundColor": "rgba(134, 25, 66, 0.15)",
         "color": "#c7ebe8",
         "backgroundSize": "cover",
         "backgroundRepeat": "no-repeat",
@@ -4146,7 +4150,7 @@ export default StyleSheet.create({
         "fontFamily": "\"Open Sans\", Helvetica, sans-serif"
     },
     "Yellow": {
-        "color": "#fbe63c"
+        "color": "white"
     },
     "h4OpenYellow": {
         "background": "rgba(4, 1, 1, 0.27)",
@@ -4155,5 +4159,36 @@ export default StyleSheet.create({
         "paddingBottom": 1,
         "paddingLeft": 5,
         "color": "white"
+    },
+    "Flex": {
+        "display": "flex",
+        "alignItems": "center"
+    },
+    "Cinquenta": {
+        "maxWidth": "50%",
+        "marginTop": 50,
+        "marginRight": 20,
+        "marginBottom": 50,
+        "marginLeft": 20
+    },
+    "Cinquenta>p": {
+        "textTransform": "none",
+        "textAlign": "justify",
+        "maxWidth": 560
+    },
+    "image-gal": {
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0
+    },
+    "Pagina": {
+        "textAlign": "center",
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "display": "flex",
+        "justifyContent": "center"
     }
 });

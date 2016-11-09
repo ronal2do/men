@@ -1,10 +1,10 @@
 <nav id="nav">
     <ul>
         <li class="special">
-            <a href="#menu" class="menuToggle"><span>Menu</span></a>
+            <a href="#menu" class="menuToggle"><span style="font-size: 1.5em;">Menu</span></a>
             <div id="menu">
                 <ul>
-                    <li><a href="/site" class="scrolly">Home</a></li>
+                    <li><a href="/" class="scrolly">Home</a></li>
                     <li><a href="/#secAgenda" class="scrolly">Agenda</a></li>
                     <li><a href="/release">Release</a></li>
                     <li><a href="/nasuafesta">Na sua festa</a></li>

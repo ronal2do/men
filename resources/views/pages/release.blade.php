@@ -6,41 +6,46 @@
 
                 <!-- Header -->
                     <header id="header">
-                     <h1><a href="/">  
+                     <h1><a href="/">
                             <img src="./images/logo2.svg" alt="" class="Bar-logo"></a></h1>
                            @include('includes.nav')
-
                     </header>
 
                     <article id="main">
                         <header class="release">
                             <h2>Release</h2>
-                        </header>
-                        <section class="wrapper">
-                            <div class="inner">
 
-                                <section>
-                                    <p>
-                                   Ainda na infância, os irmãos tomaram conhecimento e gosto pela música sertaneja. Durante boa parte da vida, trilharam caminhos profissionais diferentes, até que o destino os uniu para que fossem não apenas irmãos, mas, sim, uma dupla de cantores sertanejos. Foi quando surgiu Mateus & Nathan.
+                            <section class="wrapper" style="background: rgba(134, 25, 66, 0.84); text-transform: none;">
 
-                                    <br><br>
+                                <div class="inner">
 
-                                    Hoje, com mais de 15 anos de trajetória, eles marcam presença em todo o território nacional, trazendo alegria ao seu público com o melhor do sertanejo.<br><br>
-
-                                    Tendo sua base musical influenciada pela música sertaneja de vanguarda, a dupla se destaca pela versatilidade ao transitar do sertanejo de raiz ao sertanejo universitário.   <br><br>
-
-                                    Em seus shows, eles apresentam um repertório com grandes hits da música sertaneja, composições inéditas e parcerias.
+                                  <section class="Pagina">
+                                      <p style="text-transform: none; max-width: 660px">
+                                        Com mais de 15 anos de trajetória, a dupla Mateus & Nathan é considerada a nova revelação do momento, levando o melhor da música sertaneja ao seu público.
+                                        <br/><br/>Com talento promissor e base musical influenciada pela música sertaneja de raiz, a dupla se destaca na versatilidade em transitar dos hits consagrados ao Sertanejo Universitário.
+                                        <br/><br/>Ao longo de sua carreira, os irmãos participaram dos principais programas de rádio e TV, conquistando reconhecimento em todo território nacional.
+                                        <br/> <br/> Mateus & Nathan desenvolvem projetos artísticos que retratam o cotidiano das pessoas com uma estética sonora autêntica, atualizada com as tendências deste segmento.
+                                        <br/><br/>  Durante seus shows, a dupla apresenta um repertório com grandes hits, composições inéditas e parcerias com artistas renomados da música brasileira.
                                       </p>
 
+                                    </section>
+                                    <section style="text-align:center;">
+                                        <h3>CLIPAGEM</h3><br>
+                                        Programa Raul Gil (SBT) <br>
+                                        Programa Legendários (Rede Record) <br>
+                                        Programa Melhor do Brasil (Rede Record) <br>
+                                        Programa Domingo da Gente com Latino (Rede Record) <br>
+                                        Programa Amor e Sexo (Rede Globo) <br>
+                                        Programa Justus + (Rede Record) <br>
+                                        Programa Domingo da Gente – Apresentação Wanessa Camargo (Rede Record) <br>
+                                        Mix TV Club Sertão Caipira <br>
 
-                                    <div class="box alt">
-                                        <div class="row uniform 50%">
-                                            <div class="12u"><span class="image fit"><img src="images/banner.jpg" alt="" /></span></div>
-                                        </div>
-                                    </div>
-                                </section>
+<br><br>
+                                    </section>
 
-                            </div>
-                        </section>
+                                </div>
+                            </section>
+                        </header>
+
                     </article>
 @endsection
