@@ -22,7 +22,7 @@
                     </section>
                 <!-- One -->
 
-
+                @include('includes.ep')
                 <!-- Two -->
                     <section id="two" class="wrapper alt style2">
                         <section class="spotlight">
@@ -70,7 +70,7 @@
                     @include('includes.agenda')
                     <!-- Three -->
                     <section id="one" class="style1 special">
-                        @include('includes.galeria')
+                    @include('includes.galeria')
                     </section>
 
                     <!-- Contato -->
