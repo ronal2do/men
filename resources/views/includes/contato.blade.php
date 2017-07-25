@@ -4,17 +4,32 @@
             <h2 class="Titulo">CONTATO PARA SHOWS</h2>
         </header>
         <ul class="features">
-            @forelse($contatos as $c)
-            <li class="icon">
-                <h3>{{$c->nome}}</h3>
-                <p class="mes">{{$c->telefone}} <br>{{$c->email}}</p>
-                <br>
+            
+               <div class="bullet" >
+                    <div>
+                        <img src="https://cdn.worldvectorlogo.com/logos/react.svg" width="100px" alt="">
+                    </div>
+                    <div>
+                       <h3>comercial</h3>
+                        <p class="mes">joao@mateusenathan.com.br
+                            <br>+55 (11) 98108–2642
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bullet" >
+                    <div>
+                        <img src="https://cdn.worldvectorlogo.com/logos/react.svg" width="100px" alt="">
+                    </div>
+                    <div>
+                        <h3>Produtora</h3>
+                        <p class="mes">contato@mateusenathan.com.br
+                            <br>+55 (11) 4564–0234
+                        </p>
+                    </div>
+                </div>
+                
             </li>
-            @empty
-             <li class="icon">
-                <h3 style="text-align: center;">Nenhum contato</h3>
-            </li>
-            @endforelse
 
         </ul>
     </div>

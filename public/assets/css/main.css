@@ -1,10 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
-@font-face{
-font-family:"CCSentinel W00 Regular";
-src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix");
-src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") format("eot"),url("../fonts/1419331/36c69925-22a3-4c0f-9754-cd3b9cff4cbc.woff2") format("woff2"),url("../fonts/1419331/11b81ade-dd62-4c55-a444-67191e7533b1.woff") format("woff"),url("../fonts/1419331/199a4bcf-153d-4b15-9ec5-131cec3290ad.ttf") format("truetype");
-}
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,400italic,600,600italic,800,800italic");
 
 /* Reset */
 
@@ -1395,7 +1390,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 	}
 
 	body {
-		background: #462d37;
+		background: #004040;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1470,7 +1465,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "CCSentinel W00 Regular";
+		font-family: "Oswald";
 		color: #fff;
 		font-weight: 800;
 		letter-spacing: 0.225em;
@@ -1676,7 +1671,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 		border: none;
 		color: inherit;
 		display: block;
-    border: 2px solid #861942;
+    border: 2px solid #004040;
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
@@ -1800,7 +1795,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #861942;
+			background: #004040;
 			color: #fff;
 			content: '\f00c';
 		}
@@ -2793,7 +2788,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 			}
 
 		.wrapper.style2 {
-			background-color: #861942;
+			background-color: rgba(0, 64, 64, 0.73);
 		}
 
 		.wrapper.style3 {
@@ -3160,7 +3155,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #861942;
+		background: #004040;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3254,7 +3249,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #861942;
+		background: #004040;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3514,7 +3509,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #861942;
+			background: #004040;
 			display: block;
 			width: 100%;
 			height: 100%;
@@ -3722,7 +3717,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: #861942;
+		background-color: #004040;
 		text-align: center;
 	}
 
@@ -3812,7 +3807,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 	}
 
 	body.landing #footer {
-		background-color: rgba(134,25,66,.8);
+		background-color: rgba(0, 64, 64, 0.78);
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -3831,7 +3826,7 @@ src:url("../fonts/1419331/538a8581-c9e2-43dd-b749-0e4c3fd16c7c.eot?#iefix") form
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #861942;
+		background-color: #004040;
 	}
 
 
@@ -3981,7 +3976,7 @@ a {
     -moz-transform: skew(20deg, 0deg);
     -ms-transform: skew(20deg, 0deg);
     -o-transform: skew(20deg, 0deg);
-    font-family: "CCSentinel W00 Regular";
+    font-family: "Oswald";
     color: #ffffff;
     font-size: 82px;
     font-size: 3em;
@@ -3999,7 +3994,7 @@ a {
     -moz-transform: skew(20deg, 0deg);
     -ms-transform: skew(20deg, 0deg);
     -o-transform: skew(20deg, 0deg);
-    font-family: "CCSentinel W00 Regular";
+    font-family: "Oswald";
     font-size: 32px;
     font-size: 2rem;
     color: #fff;
@@ -4056,107 +4051,69 @@ p.local{
 }
 
 
+.Amarelo{
+	color: #c59305;
+	font-family: initial;
+	font-size: 0.5em;
+	top: -0.3em;
+	position: relative;
+	letter-spacing: .02em;
+	z-index: 2;
+	text-shadow:
+		-1px -1px 0 #004040,
+		1px -1px 0 #004040,
+		-1px 1px 0 #004040,
+			1px 1px 0 #004040;
 
+}
+.Amarelo:before{
+		content: "M";
+		position: relative;
+		top: -0.2em;
+		font-family: "Oswald";
+		font-size: 2em;
 
+}
+.Amarelo:after{
+	content: "N";
+	right: 0;
+	position: relative;
+	top: 0.5em;
+	font-family: "Oswald";
+	font-size: 2em;
+}
+.Titulo{
+	position: absolute;
+	font-size: 2em;
+}
+.Titulo:after {
+	-moz-transition: width 0.85s ease;
+	-webkit-transition: width 0.85s ease;
+	-ms-transition: width 0.85s ease;
+	transition: width 0.85s ease;
+	-moz-transition-delay: 0.25s;
+	-webkit-transition-delay: 0.25s;
+	-ms-transition-delay: 0.25s;
+	transition-delay: 0.25s;
+	background: #fff;
+	content: '';
+	display: block;
+	height: 2px;
+	position: absolute;
+	width: 100%;
+}
+#video.wrapper,
+#one.wrapper {
+	padding: 1em 0 1em 0;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.free-wall {
+	margin: 15px;
+}
 
-
-
-
-
-
-
-
-
-
-
-	            .Amarelo{
-                color: #c59305;
-                font-family: initial;
-                font-size: 0.5em;
-                top: -0.3em;
-                position: relative;
-                letter-spacing: .02em;
-                z-index: 2;
-                text-shadow:
-                   -1px -1px 0 #861942,
-                    1px -1px 0 #861942,
-                    -1px 1px 0 #861942,
-                     1px 1px 0 #861942;
-
-            }
-            .Amarelo:before{
-                    content: "M";
-                    position: relative;
-                    top: -0.2em;
-                    font-family: "CCSentinel W00 Regular";
-                    font-size: 2em;
-
-            }
-            .Amarelo:after{
-                content: "N";
-                right: 0;
-                position: relative;
-                top: 0.5em;
-                font-family: "CCSentinel W00 Regular";
-                font-size: 2em;
-            }
-            .Titulo{
-                position: absolute;
-                font-size: 2em;
-            }
-            .Titulo:after {
-                -moz-transition: width 0.85s ease;
-                -webkit-transition: width 0.85s ease;
-                -ms-transition: width 0.85s ease;
-                transition: width 0.85s ease;
-                -moz-transition-delay: 0.25s;
-                -webkit-transition-delay: 0.25s;
-                -ms-transition-delay: 0.25s;
-                transition-delay: 0.25s;
-                background: #fff;
-                content: '';
-                display: block;
-                height: 2px;
-                position: absolute;
-                width: 100%;
-            }
-            #one.wrapper {
-                padding: 1em 0 1em 0;
-            }
-            .free-wall {
-                margin: 15px;
-            }
-		@media screen and (max-width: 736px) {
-			.Titulo {
-			    position: relative;}
-
-			.cada-data .cidade-local {
-			    box-sizing: border-box;
-			    -webkit-box-sizing: border-box;
-			    -moz-box-sizing: border-box;
-			    /* padding: 12px 19px; */
-			    /* margin-left: -1px; */
-			    margin-top: -20px;
-			    width: 178px;
-			    float: right;
-			    /* background: #ffffff; */
-			    transform: skew(-20deg, 0deg);
-			    -webkit-transform: skew(-20deg, 0deg);
-			    -moz-transform: skew(-20deg, 0deg);
-			    -ms-transform: skew(-20deg, 0deg);
-			    -o-transform: skew(-20deg, 0deg);
-			    transition: 0.3s;
-			    -webkit-transition: 0.3s;
-			    -moz-transition: 0.3s;
-			    -ms-transition: 0.3s;
-			    -o-transition: 0.3s;
-			    min-height: 78px;
-			}
-			.cada-data .data {
-			    text-align: center;
-			    float: left;
-			    width: 83px;}
-		}
 #banner h2 img {
     width: 100%;
     max-width: 450px;
@@ -4166,15 +4123,7 @@ p.local{
 	padding: 2px;
 	width: 130px;
 }
-@media (min-width: 980px){
-	.Bar-logo{
-	    padding: 4px;
-	    width: 136px;
-	}
-	#cta{
-		padding: 3em;
-	}
-}
+
 .style6{
     background-color: rgba(134, 25, 66, 0.15);
     color: #c7ebe8;
@@ -4212,15 +4161,123 @@ h4.Open.Yellow {
 	text-align: justify;
 	max-width: 560px;
 }
-@media screen and (max-width: 736px) {
-	.Cinquenta {
-			max-width: 100%;
-			margin: 5px 5px;
-	}
-}
+
 .image-gal {
     margin: 0;
 }
 .Pagina {
 	text-align:center; margin: 0; display: flex; justify-content: center;
+}
+
+
+.social-scrolly {
+
+}
+
+.fa-2x {
+	font-size: 1.7em;
+	margin: 0 10px;
+}
+ 
+.socialmenu {
+	-webkit-transition: all 300ms linear;
+	-moz-transition: all 300ms linear;
+	transition: all 300ms linear;
+}
+ #header.alt nav > ul > li .socialmenu {
+	display: none;
+	margin-top: 5px;
+
+}
+
+#header nav > ul > li .socialmenu {
+	display: block;
+	margin-top: 5px;
+}  
+
+#header nav > ul > li:first-child {
+    margin-left: 0;
+    display: flex;
+}
+
+.social-scrolly {
+    margin-bottom: 2px;
+    position: absolute;
+    bottom: 116px;
+    left: calc(50% - 95px);
+}
+
+.bullet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 20px;
+}
+
+.spotlight.segundo .content{
+    padding: 2em 4em 0.1em 4em;
+    -moz-order: 2;
+    -webkit-order: 2;
+    align-items: flex-end;
+    -ms-order: 2;
+    order: 2;
+    display: flex;
+    max-width: 48em;
+    width: 60%;
+    text-align: right;
+    flex-direction: column;
+}
+
+.bullet > div > img {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 736px) {
+	.Titulo {
+		position: relative;}
+
+	.cada-data .cidade-local {
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		/* padding: 12px 19px; */
+		/* margin-left: -1px; */
+		margin-top: -20px;
+		width: 178px;
+		float: right;
+		/* background: #ffffff; */
+		transform: skew(-20deg, 0deg);
+		-webkit-transform: skew(-20deg, 0deg);
+		-moz-transform: skew(-20deg, 0deg);
+		-ms-transform: skew(-20deg, 0deg);
+		-o-transform: skew(-20deg, 0deg);
+		transition: 0.3s;
+		-webkit-transition: 0.3s;
+		-moz-transition: 0.3s;
+		-ms-transition: 0.3s;
+		-o-transition: 0.3s;
+		min-height: 78px;
+	}
+	.cada-data .data {
+		text-align: center;
+		float: left;
+		width: 83px;}
+}
+
+@media (min-width: 980px){
+	.Bar-logo{
+	    padding: 4px;
+	    width: 136px;
+	}
+	#cta{
+		padding: 3em;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.Cinquenta {
+			max-width: 100%;
+			margin: 5px 5px;
+	}
 }

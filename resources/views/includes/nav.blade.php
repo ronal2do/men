@@ -1,7 +1,14 @@
 <nav id="nav">
     <ul>
         <li class="special">
-            <a href="#menu" class="menuToggle"><span style="font-size: 1.5em;">Menu</span></a>
+            <div class="socialmenu">
+                <a href="#" ><i class="fa fa-facebook fa-2x"></i> </a>
+                <a href="#" ><i class="fa fa-instagram fa-2x"></i> </a>
+                <a href="#" ><i class="fa fa-youtube fa-2x"></i> </a>
+                <a href="#" ><i class="fa fa-spotify fa-2x"></i> </a>
+            </div>
+            <a href="#menu" class="menuToggle"><span style="font-size: 1.5em;">
+            Menu</span></a>
             <div id="menu">
                 <ul>
                     <li><a href="/" class="scrolly">Home</a></li>
