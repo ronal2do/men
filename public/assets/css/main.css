@@ -1468,7 +1468,7 @@
 		font-family: "Oswald";
 		color: #fff;
 		font-weight: 800;
-		letter-spacing: 0.225em;
+		letter-spacing: 2px;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
@@ -1609,14 +1609,12 @@
 		font-size: 0.9em;
 	}
 
-	header.major {
-		margin: 0 0 3.5em 0;
-	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			display: inline-block;
 			padding-bottom: 1em;
 			position: relative;
+			font-weight: 100;
 		}
 
 			header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
@@ -4001,6 +3999,7 @@ p.local{
 .Titulo{
 	font-size: 3em;
 	text-decoration: underline;
+	font-weight: 100;
 }
 
 #video.wrapper,
