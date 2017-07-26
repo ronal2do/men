@@ -7,7 +7,7 @@
           <br/>
           <div style="width: 60%; margin: 0 auto;">
             <div class="bloco">
-              <iframe src="https://open.spotify.com/embed?uri=spotify:artist:69Se3xEfSdjFJaKJMm4fGv" width="300" height="300" frameborder="0" allowtransparency="true"></iframe>
+              <iframe src="https://open.spotify.com/embed?uri=spotify:artist:69Se3xEfSdjFJaKJMm4fGv" width="600" height="280" frameborder="0" allowtransparency="true"></iframe>
             </div>
 
           </div>

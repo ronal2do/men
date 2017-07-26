@@ -3,11 +3,15 @@
         <header class="major">
             <h2 class="Titulo">CONTATO PARA SHOWS</h2>
         </header>
-        <ul class="features">
+        <ul style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        ">
             
                <div class="bullet" >
                     <div>
-                        <img src="https://cdn.worldvectorlogo.com/logos/react.svg" width="100px" alt="">
+                        <img src="images/wevents.png" width="120px" alt="world events">
                     </div>
                     <div>
                        <h3>comercial</h3>
@@ -19,7 +23,7 @@
 
                 <div class="bullet" >
                     <div>
-                        <img src="https://cdn.worldvectorlogo.com/logos/react.svg" width="100px" alt="">
+                        <img src="images/2t2.png" width="130px" alt="2t2">
                     </div>
                     <div>
                         <h3>Produtora</h3>
