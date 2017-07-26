@@ -11,9 +11,9 @@
   			@include('painel.contato.index')            
             @include('painel.contato.tabela')
         </div>
-<!--         <div class="col-md-10 col-md-offset-1">          
+         <div class="col-md-10 col-md-offset-1">          
             @include('painel.newsletter.tabela')
-        </div> -->
+        </div> 
     </div>
 </div>
 @endsection
